@@ -110,33 +110,35 @@ for epoch in range(num_epochs):
         optimizer.step()
     print(f'Epoch {epoch + 1}/{num_epochs}, Loss: {loss.item()}')
 
-def correct_sentence_replace(model, tokenizer, input_sentence, mask_position):
+def correct_sentence_replace(model, tokenizer, input_sentence, sentences):
     model.eval()
-    best_corrected_sentence = input_sentence
-    best_accuracy = 0.0
-    best_mask_position = -1
+    mask_positions = []
 
     with torch.no_grad():
         # Encode the input sentence
+        closest_sentence = find_closest_sentence(input_sentence, sentences)
+        mask_positions = find_mask_index(input_sentence,  closest_sentence)
         tokens = input_sentence.split()
-        removed_word = tokens.pop(mask_position)
 
-        tokens.insert(mask_position, tokenizer.mask_token)
-        input_ids = tokenizer.convert_tokens_to_ids(tokens)
-        input_seq = torch.tensor([input_ids])
+        for mask_position in mask_positions:
+            removed_word = tokens.pop(mask_position)
+
+            tokens.insert(mask_position, tokenizer.mask_token)
+            input_ids = tokenizer.convert_tokens_to_ids(tokens)
+            input_seq = torch.tensor([input_ids])
 
 
-        output = model(input_seq)
-        masked_index = input_ids.index(tokenizer.word2idx[tokenizer.mask_token])
+            output = model(input_seq)
+            masked_index = input_ids.index(tokenizer.word2idx[tokenizer.mask_token])
 
-        masked_token_logits = output[0, masked_index-1, :]
+            masked_token_logits = output[0, masked_index-1, :]
 
-        predicted_token_id = torch.argmax(masked_token_logits, dim=-1).item()
-        #print(predicted_token_id)
-        predicted_token = tokenizer.idx2word[predicted_token_id]
+            predicted_token_id = torch.argmax(masked_token_logits, dim=-1).item()
+            #print(predicted_token_id)
+            predicted_token = tokenizer.idx2word[predicted_token_id]
 
-        tokens[masked_index] = predicted_token
-        corrected_sentence = tokenizer.convert_tokens_to_string(tokens)
+            tokens[masked_index] = predicted_token
+            corrected_sentence = tokenizer.convert_tokens_to_string(tokens)
 
 
 
@@ -190,6 +192,42 @@ def correct_sentence_mask(model, tokenizer, input_sentence, sentences):
     return best_corrected_sentence, best_mask_position
 
 
+def find_mask_index(corrected_sentence, original_sentence):
+    corrected_tokens = corrected_sentence.split()
+    original_tokens = original_sentence.split()
+
+    min_length = min(len(corrected_tokens), len(original_tokens))
+    mask_indices = []
+    for i in range(min_length):
+        if corrected_tokens[i] != original_tokens[i]:
+            mask_indices.append(i)
+
+    if len(corrected_tokens) != len(original_tokens):
+        mask_indices.extend(range(min_length, max(len(corrected_tokens), len(original_tokens))))
+
+    return mask_indices
+
+
+
+
+def find_closest_sentence(corrected_sentence, sentences):
+    closest_original_sentence = sentences
+    best_accuracy = 0.0
+
+
+    for sentence in sentences:
+        original_sentence = sentence
+
+        accuracy = calculate_accuracy(corrected_sentence, original_sentence)
+
+        # Update the best position if accuracy is higher
+        if accuracy > best_accuracy:
+            best_accuracy = accuracy
+            closest_original_sentence = sentence
+
+    return closest_original_sentence
+
+
 def calculate_accuracy(corrected_sentence, original_sentence):
     corrected_tokens = corrected_sentence.split()
     original_tokens = original_sentence.split()
@@ -209,6 +247,6 @@ def calculate_accuracy(corrected_sentence, original_sentence):
 
 #print(correct_sentence_mask(model, tokenizer, "a quick over dog", 2))
 #corrected_sentence, best_mask_position = correct_sentence_mask(model, tokenizer, "ide gas ode", sentences)
-corrected_sentence = correct_sentence_replace(model, tokenizer, "a quick brown fx jumps over the lazy dog", 3)
+corrected_sentence = correct_sentence_replace(model, tokenizer, "a quick rown fox jmps over the lzy dg", sentences)
 print(corrected_sentence)
 #print(f"Corrected: {corrected_sentence} (Best mask position: {best_mask_position})")
