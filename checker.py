@@ -2,29 +2,27 @@ import string
 from utils import *
 
 TEXTS_FILE_NAME = "texts.txt"
-DICT_FILE_NAME = "dict.txt"
+VOCAB_FILE_NAME = "dict.txt"
+LETTERS = string.ascii_letters + " čćđšžČĆĐŠŽ"
 
 EMBEDDING_DIM = 64
 HIDDEN_DIM = 128
+NUM_EPOCHS = 5
+
 
 if __name__ == "__main__":
     sentences = []
-    dictionary = []
-
-    letters = string.ascii_letters + " čćđšžČĆĐŠŽ"
-
-    def preprocess_sentence(sentence):
-        return ' '.join(''.join(letter for letter in sentence if letter in letters).split())
+    vocabulary = []
 
     with open(TEXTS_FILE_NAME, 'r', encoding='utf-8') as file:
         for line in file:
             lines = line.split("\t")
-            sentences.append(preprocess_sentence(lines[1]))
-            sentences.append(preprocess_sentence(lines[2]))
+            sentences.append(preprocess_sentence(lines[1].strip(), LETTERS))
+            sentences.append(preprocess_sentence(lines[2].strip(), LETTERS))
 
-    with open(DICT_FILE_NAME, 'r', encoding='utf-8') as file:
+    with open(VOCAB_FILE_NAME, 'r', encoding='utf-8') as file:
         for line in file:
-            dictionary.append(line)
+            vocabulary.append(line.strip())
     
     tokenizer = Tokenizer()
     tokenizer.fit(sentences)
@@ -41,6 +39,19 @@ if __name__ == "__main__":
     criterion = nn.CrossEntropyLoss(ignore_index=tokenizer.word2idx['<PAD>'])
     optimizer = optim.Adam(model.parameters(), lr=0.001)
     
-    corrected_sentence, best_mask_position = correct_sentence_mask(model, tokenizer, "Iz danas je amognus iz", sentences)
-    print(f"Corrected: {corrected_sentence} (Best mask position: {best_mask_position})")
+    # for epoch in range(NUM_EPOCHS):
+    #     for inputs, targets in dataloader:
+    #         outputs = model(inputs)
+    #         loss = criterion(outputs.view(-1, vocab_size), targets.view(-1))
+    #         optimizer.zero_grad()
+    #         loss.backward()
+    #         optimizer.step()
+    #     print(f'Epoch {epoch + 1}/{NUM_EPOCHS}, Loss: {loss.item()}')
+
+    # corrected_sentence, best_mask_position = correct_sentence_mask(model, tokenizer, "Iz danas je amognus iz", sentences)
+    # print(f"Corrected: {corrected_sentence} (Best mask position: {best_mask_position})")
+
+    prompt = preprocess_sentence("Ovo je rekenica", LETTERS)
+    for combination in spellcheck_sentence(prompt, vocabulary):
+        print(' '.join(word for word in combination))
 

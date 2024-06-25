@@ -4,6 +4,7 @@ import torch.optim as optim
 from torch.utils.data import DataLoader, Dataset
 from torch.nn.utils.rnn import pad_sequence
 from Levenshtein import distance as levenshtein_distance
+import itertools
 
 class Tokenizer:
     def __init__(self):
@@ -108,4 +109,43 @@ def calculate_accuracy(corrected_sentence, original_sentence):
     accuracy = 1 - (distance / max_length)
 
     return accuracy
+
+def spellcheck_word(given_word, vocabulary):
+    min_distance = 10*100
+    nearest_words = []
+    for word in vocabulary:
+        if word.lower() == given_word.lower(): return [given_word]
+        distance = levenshtein_distance(word, given_word)
+        if distance > min_distance: continue
+        if distance < min_distance:
+            nearest_words.clear()
+            
+            min_distance = distance
+        nearest_words.append(word)
+    return nearest_words
+
+def preprocess_sentence(sentence, letters):
+    return ' '.join(''.join(letter for letter in sentence if letter in letters).split())
+
+def spellcheck_sentence(sentence, vocabulary):
+    original_words = sentence.split()
+    spellchecked_sentences = []
+    words_to_replace = {}
+    for i, word in enumerate(original_words):
+        nearest_words = spellcheck_word(word, vocabulary)
+        if nearest_words[0] == word: continue
+        words_to_replace[i] = nearest_words
+    
+    pair_lists = [[(key, value) for value in values] for key, values in words_to_replace.items()]
+    combinations = itertools.product(*pair_lists)
+    for combination in combinations:
+        spellchecked_sentence = original_words[:]
+        for pair in combination:
+            spellchecked_sentence[pair[0]] = pair[1]
+        spellchecked_sentences.append(spellchecked_sentence)
+    return spellchecked_sentences
+
+
+
+
 
