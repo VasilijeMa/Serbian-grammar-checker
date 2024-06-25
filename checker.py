@@ -7,6 +7,7 @@ DICT_FILE_NAME = "dict.txt"
 EMBEDDING_DIM = 64
 HIDDEN_DIM = 128
 
+NUM_EPOCHS = 3
 if __name__ == "__main__":
     sentences = []
     dictionary = []
@@ -40,7 +41,16 @@ if __name__ == "__main__":
     model = LanguageModel(vocab_size, EMBEDDING_DIM, HIDDEN_DIM)
     criterion = nn.CrossEntropyLoss(ignore_index=tokenizer.word2idx['<PAD>'])
     optimizer = optim.Adam(model.parameters(), lr=0.001)
-    
-    corrected_sentence, best_mask_position = correct_sentence_mask(model, tokenizer, "Iz danas je amognus iz", sentences)
+
+    for epoch in range(NUM_EPOCHS):
+        for inputs, targets in dataloader:
+            outputs = model(inputs)
+            loss = criterion(outputs.view(-1, vocab_size), targets.view(-1))
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
+        print(f'Epoch {epoch + 1}/{NUM_EPOCHS}, Loss: {loss.item()}')
+
+    corrected_sentence, best_mask_position = correct_sentence_mask(model, tokenizer, "euleks je u pristini", sentences)
     print(f"Corrected: {corrected_sentence} (Best mask position: {best_mask_position})")
 
