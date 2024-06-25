@@ -7,8 +7,7 @@ LETTERS = string.ascii_letters + " čćđšžČĆĐŠŽ"
 
 EMBEDDING_DIM = 64
 HIDDEN_DIM = 128
-NUM_EPOCHS = 5
-
+NUM_EPOCHS = 3
 
 if __name__ == "__main__":
     sentences = []
@@ -38,20 +37,20 @@ if __name__ == "__main__":
     model = LanguageModel(vocab_size, EMBEDDING_DIM, HIDDEN_DIM)
     criterion = nn.CrossEntropyLoss(ignore_index=tokenizer.word2idx['<PAD>'])
     optimizer = optim.Adam(model.parameters(), lr=0.001)
+
+    for epoch in range(NUM_EPOCHS):
+        for inputs, targets in dataloader:
+            outputs = model(inputs)
+            loss = criterion(outputs.view(-1, vocab_size), targets.view(-1))
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
+        print(f'Epoch {epoch + 1}/{NUM_EPOCHS}, Loss: {loss.item()}')
+
+    # prompt = preprocess_sentence("Ovo je rekenica", LETTERS)
+    # for combination in spellcheck_sentence(prompt, vocabulary):
+    #     print(' '.join(word for word in combination))
     
-    # for epoch in range(NUM_EPOCHS):
-    #     for inputs, targets in dataloader:
-    #         outputs = model(inputs)
-    #         loss = criterion(outputs.view(-1, vocab_size), targets.view(-1))
-    #         optimizer.zero_grad()
-    #         loss.backward()
-    #         optimizer.step()
-    #     print(f'Epoch {epoch + 1}/{NUM_EPOCHS}, Loss: {loss.item()}')
-
-    # corrected_sentence, best_mask_position = correct_sentence_mask(model, tokenizer, "Iz danas je amognus iz", sentences)
-    # print(f"Corrected: {corrected_sentence} (Best mask position: {best_mask_position})")
-
-    prompt = preprocess_sentence("Ovo je rekenica", LETTERS)
-    for combination in spellcheck_sentence(prompt, vocabulary):
-        print(' '.join(word for word in combination))
+    corrected_sentence, best_mask_position = correct_sentence_mask(model, tokenizer, "euleks je u pristini", sentences)
+    print(f"Corrected: {corrected_sentence} (Best mask position: {best_mask_position})")
 

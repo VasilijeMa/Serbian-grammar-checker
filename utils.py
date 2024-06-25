@@ -97,6 +97,9 @@ def correct_sentence_mask(model, tokenizer, input_sentence, sentences):
     return best_corrected_sentence, best_mask_position
 
 
+#def correct_sentence_replace(model, tokenizer, input_sentence, sentences):
+
+
 def calculate_accuracy(corrected_sentence, original_sentence):
     corrected_tokens = corrected_sentence.split()
     original_tokens = original_sentence.split()
