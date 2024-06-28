@@ -6,6 +6,7 @@ from torch.nn.utils.rnn import pad_sequence
 from Levenshtein import distance as levenshtein_distance
 import itertools
 
+# Preprocessing data
 class WordDataset(Dataset):
     def __init__(self, X_before, X_after, y):
         self.X_before = X_before
@@ -18,6 +19,28 @@ class WordDataset(Dataset):
     def __getitem__(self, idx):
         return self.X_before[idx], self.X_after[idx], self.y[idx]
 
+def preprocess_sentence(sentence, letters):
+    return ' '.join(''.join(letter for letter in sentence if letter in letters).split())
+
+def encode_word(word):
+    sum = 0.0
+    power = 2.0
+    for char in reversed(word):
+        sum+=(ord(char)**power)
+        power*=0.5
+    return sum
+
+def create_io_pairs(sequences):
+    X_before, X_after, y = [], [], []
+    for sequence in sequences:
+        if len(sequence) > 2:
+            for i in range(1, len(sequence)-1):
+                X_before.append(sequence[i-1])
+                X_after.append(sequence[i+1])
+                y.append(sequence[i])
+    return X_before, X_after, y
+
+# Neural network model
 class WordBetweenModel(nn.Module):
     def __init__(self, vocab_size, embedding_dim, hidden_dim):
         super(WordBetweenModel, self).__init__()
@@ -36,19 +59,23 @@ class WordBetweenModel(nn.Module):
         out = self.fc(lstm_out[:, -1, :])
         return out
 
-def calculate_accuracy(corrected_sentence, original_sentence):
-    corrected_tokens = corrected_sentence.split()
-    original_tokens = original_sentence.split()
+def predict_between(model, context_before, context_after):
+    model.eval()
+    
+    indices_before = [context_before]
+    indices_after = [context_after]
+    
+    input_before = torch.tensor([indices_before], dtype=torch.long).unsqueeze(1)
+    input_after = torch.tensor([indices_after], dtype=torch.long).unsqueeze(1)
+    
+    with torch.no_grad():
+        output = model(input_before, input_after)
+        _, predicted = torch.max(output, 1)
+        predicted_word = predicted.item()
+    
+    return predicted_word
 
-    distance = levenshtein_distance(corrected_tokens, original_tokens)
-
-    max_length = max(len(corrected_tokens), len(original_tokens))
-    if max_length == 0:
-        return 0.0
-    accuracy = 1 - (distance / max_length)
-
-    return accuracy
-
+# Formatting prompt for prediction
 def spellcheck_word(given_word, vocabulary):
     min_distance = 10*100
     nearest_words = []
@@ -62,9 +89,6 @@ def spellcheck_word(given_word, vocabulary):
             min_distance = distance
         nearest_words.append(word)
     return nearest_words
-
-def preprocess_sentence(sentence, letters):
-    return ' '.join(''.join(letter for letter in sentence if letter in letters).split()) + " <EOS>"
 
 def spellcheck_sentence(sentence, vocabulary):
     original_words = sentence.split()
@@ -83,21 +107,3 @@ def spellcheck_sentence(sentence, vocabulary):
             spellchecked_sentence[pair[0]] = pair[1]
         spellchecked_sentences.append(spellchecked_sentence)
     return spellchecked_sentences
-
-
-def predict_between(model, context_before, context_after, vocab):
-    model.eval()
-    
-    indices_before = [vocab[context_before]]
-    indices_after = [vocab[context_after]]
-    
-    input_before = torch.tensor([indices_before], dtype=torch.long).unsqueeze(1)
-    input_after = torch.tensor([indices_after], dtype=torch.long).unsqueeze(1)
-    
-    with torch.no_grad():
-        output = model(input_before, input_after)
-        _, predicted = torch.max(output, 1)
-        predicted_word = predicted.item()
-    
-    inv_vocab = {i: word for word, i in vocab.items()}
-    return ' '.join([context_before, inv_vocab[predicted_word], context_after])
