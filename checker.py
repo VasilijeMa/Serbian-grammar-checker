@@ -1,3 +1,4 @@
+import re
 import string
 from utils import *
 from collections import Counter
@@ -11,9 +12,9 @@ EMBEDDING_DIM = 64
 HIDDEN_DIM = 128
 
 # Edit these parameters to optimize performance
-DATA_SIZE = 100
-BATCH_SIZE = 32
-NUM_EPOCHS = 20
+DATA_SIZE = 20
+BATCH_SIZE = 6
+NUM_EPOCHS = 4
 BUCKET_RANGE = 10
 
 if __name__ == "__main__":
@@ -61,6 +62,8 @@ if __name__ == "__main__":
 
     optimizer = optim.Adam(model.parameters(), lr=0.001)
 
+
+
     for epoch in range(NUM_EPOCHS):
         print(f"Starting epoch {epoch+1}")
         i = 1
@@ -78,13 +81,65 @@ if __name__ == "__main__":
             
         print(f'Epoch [{epoch+1}/{NUM_EPOCHS}], Loss: {loss.item():.4f}')
 
-    predicted_value = predict_between(model, encode_word("Pripadnici"), encode_word("agencija"))
-    solutions = []
-    for key in inverted_vocab.keys():
-        if key - predicted_value > BUCKET_RANGE: break
-        if abs(key - predicted_value) > BUCKET_RANGE: continue
-        solutions.append(inverted_vocab[key])
-    print(solutions)
-    
+    test_sentences = ['Akademiji, u Sava, u Ministarstva',
+                      'a se priblizio od 45 odsto',
+                      'treba da na koji treba drzavi']
+
+    for sentence in test_sentences:
+        word_pairs_insert = []
+        word_pairs_replace = []
+        pattern = r'[^a-zA-Z0-9\s]'
+
+        print("******** Sentence ********")
+
+
+        words = sentence.split(' ');
+        clean_words = []
+
+        for word in words:
+            word = re.sub(pattern, '', word)
+            clean_words.append(word)
+
+        for i in range(len(clean_words) - 1):
+            word_pairs_insert.append([clean_words[i], clean_words[i + 1]])
+
+        for i in range(len(clean_words) - 2):
+            word_pairs_replace.append([clean_words[i], clean_words[i+2]])
+
+        print("Words for insert: ")
+        print(word_pairs_insert)
+
+        print("Words for replace")
+        print(word_pairs_replace)
+
+        print("-------- insert ---------")
+        for word_pair_insert in word_pairs_insert:
+            predicted_value = predict_between(model, encode_word(word_pair_insert[0]), encode_word(word_pair_insert[1]))
+            solutions = []
+            for key in inverted_vocab.keys():
+                if key - predicted_value > BUCKET_RANGE: break
+                if abs(key - predicted_value) > BUCKET_RANGE: continue
+                solutions.append(inverted_vocab[key])
+            print(solutions)
+
+        print("-------- replace ---------")
+        for word_pair_replace in word_pairs_replace:
+            predicted_value = predict_between(model, encode_word(word_pair_replace[0]), encode_word(word_pair_replace[1]))
+            solutions = []
+            for key in inverted_vocab.keys():
+                if key - predicted_value > BUCKET_RANGE: break
+                if abs(key - predicted_value) > BUCKET_RANGE: continue
+                solutions.append(inverted_vocab[key])
+            print(solutions)
+
+
+
+
+
+
+
+
+
+
 
 
