@@ -12,9 +12,9 @@ EMBEDDING_DIM = 64
 HIDDEN_DIM = 128
 
 # Edit these parameters to optimize performance
-DATA_SIZE = 20
+DATA_SIZE = 100
 BATCH_SIZE = 6
-NUM_EPOCHS = 4
+NUM_EPOCHS = 20
 BUCKET_RANGE = 10
 
 if __name__ == "__main__":
