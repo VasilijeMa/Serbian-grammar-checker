@@ -1,8 +1,7 @@
 import torch
 import torch.nn as nn
-import torch.optim as optim
-from torch.utils.data import DataLoader, Dataset
-from torch.nn.utils.rnn import pad_sequence
+from torch.utils.data import Dataset
+import torch.nn.functional as F
 from Levenshtein import distance as levenshtein_distance
 import itertools
 
@@ -20,7 +19,7 @@ class WordDataset(Dataset):
         return self.X_before[idx], self.X_after[idx], self.y[idx]
 
 def preprocess_sentence(sentence, letters):
-    return ' '.join(''.join(letter for letter in sentence if letter in letters).split())
+    return ''.join(letter for letter in sentence if letter in letters).split()
 
 def encode_word(word):
     sum = 0.0
@@ -70,10 +69,14 @@ def predict_between(model, context_before, context_after):
     
     with torch.no_grad():
         output = model(input_before, input_after)
-        _, predicted = torch.max(output, 1)
-        predicted_word = predicted.item()
+        probabilities = F.softmax(output, dim=1)
+
+        max_prob, predicted_value = torch.max(probabilities, 1)
+
+        max_prob = max_prob.item()
+        predicted_value = predicted_value.item()
     
-    return predicted_word
+    return max_prob, predicted_value
 
 # Formatting prompt for prediction
 def spellcheck_word(given_word, vocabulary):
@@ -91,18 +94,19 @@ def spellcheck_word(given_word, vocabulary):
     return nearest_words
 
 def spellcheck_sentence(sentence, vocabulary):
-    original_words = sentence.split()
     spellchecked_sentences = []
     words_to_replace = {}
-    for i, word in enumerate(original_words):
+    for i, word in enumerate(sentence):
+        if any(char.isdigit() for char in word): continue
         nearest_words = spellcheck_word(word, vocabulary)
-        if nearest_words[0] == word: continue
+        if nearest_words[0].lower() == word.lower(): continue
         words_to_replace[i] = nearest_words
-    
+    if len(words_to_replace) == 0: return [sentence]
+
     pair_lists = [[(key, value) for value in values] for key, values in words_to_replace.items()]
     combinations = itertools.product(*pair_lists)
     for combination in combinations:
-        spellchecked_sentence = original_words[:]
+        spellchecked_sentence = sentence[:]
         for pair in combination:
             spellchecked_sentence[pair[0]] = pair[1]
         spellchecked_sentences.append(spellchecked_sentence)
