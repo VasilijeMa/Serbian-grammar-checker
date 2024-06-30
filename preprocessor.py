@@ -14,7 +14,8 @@ def create_io_pairs(sequences):
 def invert(vocab):
     inverted_vocab = {}
     for word, value in vocab.items():
-        if value not in inverted_vocab:
-            inverted_vocab[value] = []
-        inverted_vocab[value].append(word)
-    inverted_vocab = dict(sorted(inverted_vocab.items()))
+        inverted_vocab[value] = word
+#        inverted_vocab[value].append(word)
+
+   # print(f"Inverted: {inverted_vocab}")
+    return dict(sorted(inverted_vocab.items()))

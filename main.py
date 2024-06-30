@@ -14,8 +14,7 @@ EMBEDDING_DIM = 64
 HIDDEN_DIM = 128
 
 BATCH_SIZE = 4
-NUM_EPOCHS = 2
-BUCKET_RANGE = 10
+NUM_EPOCHS = 20
 
 if __name__ == "__main__":
     sentences = get_sentences()
@@ -53,9 +52,10 @@ if __name__ == "__main__":
 
         print(f'Epoch [{epoch+1}/{NUM_EPOCHS}], Loss: {loss.item():.4f}')
 
-    test_sentences = ['Minisđar poslo,va Slovačka Miroslav'
-                    ]#   'ranjen snajpera u glava u blizini prelaza',
-                    #   'Stanov za Rome']
+    test_sentences = ['Minisđar poslo,va Slovačka Miroslav',
+                      'ranjen snajpera u glava u blizini prelaza',
+                       'Stanov za Rome',
+                       'Tužilštvo pozval Miu Farou, Naomi Kembel njenog bvšeg']
 
     for sentence in test_sentences:
         clean_sentence = preprocess_sentence(sentence, LETTERS)
@@ -74,11 +74,13 @@ if __name__ == "__main__":
             print("-------- insert 1 ----------")
             prob, n, new_sentence_insert = insert_into_sentence(model, spellchecked_sentence, inverted_vocab)
             prob_sum_1 += prob
+            print(f"New insert: {new_sentence_insert}, prob: {prob}")
             n1 += n
                 
             print("-------- replace 1 ---------")
             prob, n, sentence_1 = replace_in_sentence(model, new_sentence_insert, inverted_vocab)
             prob_sum_1 += prob
+            print(f"New replace: {sentence_1}, prob: {prob}")
             n1 += n
 
             # Insert after replace
@@ -86,17 +88,23 @@ if __name__ == "__main__":
             print("-------- replace 2 ----------")
             prob, n, new_sentence_replace = replace_in_sentence(model, spellchecked_sentence, inverted_vocab)
             prob_sum_2 += prob
+            print(f"New replace: {new_sentence_replace}, prob: {prob}")
             n2 += n
             
             print("-------- insert 2 ---------")
             prob, n, sentence_2 = insert_into_sentence(model, new_sentence_replace, inverted_vocab)
             prob_sum_2 += prob
+            print(f"New insert: {sentence_2}, prob: {prob}")
+
             n2 += n
 
+            prob_avg_1 = prob_sum_1
+            prob_avg_2 = prob_sum_2
             # Calculate highest probability
-
-            prob_avg_1 = prob_sum_1/n1
-            prob_avg_2 = prob_sum_2/n2
+            if n1 > 0:
+                prob_avg_1 /= n1
+            if n2 > 0:
+                prob_avg_2 /= n2
             
             if prob_avg_1 > prob_avg_2:
                 sentence_1[0] = sentence_1[0].capitalize()

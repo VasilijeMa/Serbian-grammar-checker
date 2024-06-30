@@ -2,7 +2,8 @@ import torch
 import torch.nn.functional as F
 from Levenshtein import distance as levenshtein_distance
 
-PROB_THRESHOLD = 0.8
+PROB_THRESHOLD = 0.7
+BUCKET_RANGE = 10
 
 def encode_word(word):
     sum = 0.0
@@ -33,9 +34,10 @@ def predict_between(model, word_before, word_after):
     return max_prob, predicted_value
 
 def insert_word(model, word_pair, inverted_vocab):
-    #TODO
-    pass
 
+    max_prob, predicted_value = predict_between(model, encode_word(word_pair[0]), encode_word(word_pair[1]))
+    predicted_word = inverted_vocab[min(inverted_vocab.keys(), key=lambda k: abs(k - predicted_value))]
+    return max_prob, predicted_word
 def insert_into_sentence(model, original_sentence, inverted_vocab):
     n = 0
     prob_sum = 0.0
@@ -48,16 +50,28 @@ def insert_into_sentence(model, original_sentence, inverted_vocab):
         new_sentence.append(word_pair[0])
         prob, new_word = insert_word(model, word_pair, inverted_vocab)
 
+        print(f"Papuca: {prob}")
         if prob >= PROB_THRESHOLD:
             prob_sum += prob
             n += 1
             new_sentence.append(new_word)
+            print(f"Word_pair: {word_pair}, New word: {new_word}, Prob: {prob}")
     new_sentence.append(original_sentence[-1])
     return prob_sum, n, new_sentence
 
 def replace_word(model, word_pair, inverted_vocab, original_word):
-    #TODO
-    pass
+    max_prob, predicted_value = predict_between(model, encode_word(word_pair[0]), encode_word(word_pair[1]))
+
+    solutions = []
+    for key in inverted_vocab.keys():
+        if key - predicted_value > BUCKET_RANGE: break
+        if abs(key - predicted_value) > BUCKET_RANGE: continue
+        solutions.append(inverted_vocab[key])
+
+    if len(solutions) == 0: return max_prob, original_word
+
+    predicted_word = min(solutions, key=lambda s: levenshtein_distance(s, original_word))
+    return max_prob, predicted_word
 
 def replace_in_sentence(model, original_sentence, inverted_vocab):
     n = 0
@@ -66,16 +80,28 @@ def replace_in_sentence(model, original_sentence, inverted_vocab):
     for i in range(len(original_sentence) - 2):
         word_pairs.append([original_sentence[i], original_sentence[i+2]])
 
+    skip = False
     new_sentence = []
     for i, word_pair in enumerate(word_pairs):
+
+        if skip:
+            skip = False
+            continue
+
         original_word = original_sentence[i+1]
         new_sentence.append(word_pair[0])
         prob, new_word = replace_word(model, word_pair, inverted_vocab, original_word)
 
+        if new_word == original_word: continue
+        print(f"Papan: {prob}")
         if prob >= PROB_THRESHOLD:
+            skip = True
             prob_sum += prob
             n += 1
             new_sentence.append(new_word)
-        else: new_sentence.append(original_word)
+            print(f"Word_pair: {word_pair}, New word: {new_word}, Prob: {prob}")
+        elif i == len(word_pairs)-1:
+            new_sentence.append(original_word)
+
     new_sentence.append(original_sentence[-1])
     return prob_sum, n, new_sentence
