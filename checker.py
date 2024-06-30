@@ -36,7 +36,7 @@ def replace_word():
     #TODO
     pass
 
-def insert_words(model, original_sentence, inverted_vocab)
+def insert_words(model, original_sentence, inverted_vocab):
     n = 0
     prob_sum = 0.0
     word_pairs = []
