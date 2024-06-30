@@ -50,7 +50,6 @@ def insert_into_sentence(model, original_sentence, inverted_vocab):
         new_sentence.append(word_pair[0])
         prob, new_word = insert_word(model, word_pair, inverted_vocab)
 
-        print(f"Papuca: {prob}")
         if prob >= PROB_THRESHOLD:
             prob_sum += prob
             n += 1
@@ -83,7 +82,6 @@ def replace_in_sentence(model, original_sentence, inverted_vocab):
     skip = False
     new_sentence = []
     for i, word_pair in enumerate(word_pairs):
-        print(f"AAAA {word_pair}")
         if skip:
             skip = False
             continue
@@ -95,7 +93,6 @@ def replace_in_sentence(model, original_sentence, inverted_vocab):
         if new_word == original_word:
             if i == len(word_pairs)-1: new_sentence.append(original_word)
             continue
-        print(f"Papan: {prob}")
         if prob >= PROB_THRESHOLD:
             skip = True
             prob_sum += prob
