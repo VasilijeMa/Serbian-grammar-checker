@@ -104,3 +104,13 @@ def replace_in_sentence(model, original_sentence, inverted_vocab):
 
     new_sentence.append(original_sentence[-1])
     return prob_sum, n, new_sentence
+
+
+def calculate_accuracy(predicted_sentence, correct_sentence):
+
+    distance = levenshtein_distance(predicted_sentence, correct_sentence)
+    max_length = max(len(predicted_sentence), len(correct_sentence))
+    normalized_distance = distance/max_length
+
+    accuracy = (1 - normalized_distance) * 100
+    return accuracy

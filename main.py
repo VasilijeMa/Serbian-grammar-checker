@@ -5,7 +5,7 @@ from torch.utils.data import DataLoader
 
 from classes import WordBetweenModel, WordDataset
 from spellchecker import spellcheck_sentence
-from predictor import insert_into_sentence, replace_in_sentence, encode_word
+from predictor import insert_into_sentence, replace_in_sentence, encode_word, calculate_accuracy
 from preprocessor import *
 from text_reader import *
 
@@ -53,9 +53,14 @@ if __name__ == "__main__":
         print(f'Epoch [{epoch+1}/{NUM_EPOCHS}], Loss: {loss.item():.4f}')
 
     test_sentences = ['Minisđar poslo,va Slovačka Miroslav',
-                      'ranjen snajpera u glava u blizini prelaza',
-                       'Stanov za Rome',
-                       'Tužilštvo pozval Miu Farou, Naomi Kembel njenog bvšeg']
+                      'ne mgu biti uslv za kredit na konsultaciju mosta',
+                       'Srbija putila hitni međusobna zajednci']
+
+    correct_sentences = ['Ministar spoljnih poslova Slovačke Miroslav',
+                         'ne mogu biti uslov za kredit za konstrukciju mosta',
+                         'Srbija uputila hitan zahtev međunarodnoj zajednici']
+
+
 
     for sentence in test_sentences:
         clean_sentence = preprocess_sentence(sentence, LETTERS)
@@ -114,7 +119,10 @@ if __name__ == "__main__":
                 corrected_versions[prob_avg_2] = sentence_2
         
         max_prob = max(corrected_versions.keys())
-        print(f"Best version with probability {max_prob} is {' '.join(corrected_versions[max_prob])}\nOthers:")
+        predicted_sentence = ' '.join(corrected_versions[max_prob])
+        print(f"Best version with probability {max_prob} is {predicted_sentence}\nOthers:")
+        accuracy = calculate_accuracy(predicted_sentence, correct_sentences[test_sentences.index(sentence)])
+        print(f"Accuracy: {accuracy:.2f}%, compared to: {correct_sentences[test_sentences.index(sentence)]}")
         for key in corrected_versions.keys():
             if key == max_prob: continue
             print(f"Sentence: {' '.join(corrected_versions[key])}, probability: {key}")
