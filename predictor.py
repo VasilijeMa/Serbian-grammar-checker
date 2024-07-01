@@ -54,7 +54,7 @@ def insert_into_sentence(model, original_sentence, inverted_vocab):
             prob_sum += prob
             n += 1
             new_sentence.append(new_word)
-            print(f"Word_pair: {word_pair}, New word: {new_word}, Prob: {prob}")
+          #  print(f"Word_pair: {word_pair}, New word: {new_word}, Prob: {prob}")
     new_sentence.append(original_sentence[-1])
     return prob_sum, n, new_sentence
 
@@ -98,7 +98,7 @@ def replace_in_sentence(model, original_sentence, inverted_vocab):
             prob_sum += prob
             n += 1
             new_sentence.append(new_word)
-            print(f"Word_pair: {word_pair}, New word: {new_word}, Prob: {prob}")
+          #  print(f"Word_pair: {word_pair}, New word: {new_word}, Prob: {prob}")
         elif i == len(word_pairs)-1:
             new_sentence.append(original_word)
 

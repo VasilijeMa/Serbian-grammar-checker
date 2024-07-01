@@ -13,12 +13,15 @@ VOCAB_SIZE = 150000
 EMBEDDING_DIM = 64
 HIDDEN_DIM = 128
 
-BATCH_SIZE = 4
+BATCH_SIZE = 6
 NUM_EPOCHS = 20
 
 if __name__ == "__main__":
     sentences = get_sentences()
     spelling_vocab = get_vocab()
+
+
+
 
     unique_words = set(word for sentence in sentences for word in sentence)
     vocab = {word: encode_word(word) for word in unique_words}
@@ -52,23 +55,24 @@ if __name__ == "__main__":
 
         print(f'Epoch [{epoch+1}/{NUM_EPOCHS}], Loss: {loss.item():.4f}')
 
-    test_sentences = ['Minisđar poslo,va Slovačka Miroslav',
-                      'ne mgu biti uslv za kredit na konsultaciju mosta',
-                       'Srbija putila hitni međusobna zajednci']
+#    test_sentences = ['Minisđar poslo,va Slovačka Miroslav',
+ #                     'ne mgu biti uslv za kredit na konsultaciju mosta',
+ #                      'Srbija putila hitni međusobna zajednci']
 
-    correct_sentences = ['Ministar spoljnih poslova Slovačke Miroslav',
-                         'ne mogu biti uslov za kredit za konstrukciju mosta',
-                         'Srbija uputila hitan zahtev međunarodnoj zajednici']
+ #   correct_sentences = ['Ministar spoljnih poslova Slovačke Miroslav',
+ #                        'ne mogu biti uslov za kredit za konstrukciju mosta',
+ #                        'Srbija uputila hitan zahtev međunarodnoj zajednici']
 
+    test_sentences, correct_sentences = get_test_data()
 
+    for sentence, correct_sentence in zip(test_sentences, correct_sentences):
 
-    for sentence in test_sentences:
         clean_sentence = preprocess_sentence(sentence, LETTERS)
-        print(f"Cleaned sentence: {clean_sentence}")
+       # print(f"Cleaned sentence: {clean_sentence}")
         corrected_versions = {}
 
         for spellchecked_sentence in spellcheck_sentence(clean_sentence, spelling_vocab):
-            print(f"Spellchecked sentence: {spellchecked_sentence}")
+       #     print(f"Spellchecked sentence: {spellchecked_sentence}")
             n1 = 0
             prob_sum_1 = 0.0
             n2 = 0
@@ -76,30 +80,30 @@ if __name__ == "__main__":
 
             # Replace after insert
 
-            print("-------- insert 1 ----------")
+         #   print("-------- insert 1 ----------")
             prob, n, new_sentence_insert = insert_into_sentence(model, spellchecked_sentence, inverted_vocab)
             prob_sum_1 += prob
-            print(f"New insert: {new_sentence_insert}, prob: {prob}")
+         #   print(f"New insert: {new_sentence_insert}, prob: {prob}")
             n1 += n
                 
-            print("-------- replace 1 ---------")
+         #   print("-------- replace 1 ---------")
             prob, n, sentence_1 = replace_in_sentence(model, new_sentence_insert, inverted_vocab)
             prob_sum_1 += prob
-            print(f"New replace: {sentence_1}, prob: {prob}")
+        #    print(f"New replace: {sentence_1}, prob: {prob}")
             n1 += n
 
             # Insert after replace
             
-            print("-------- replace 2 ----------")
+         #   print("-------- replace 2 ----------")
             prob, n, new_sentence_replace = replace_in_sentence(model, spellchecked_sentence, inverted_vocab)
             prob_sum_2 += prob
-            print(f"New replace: {new_sentence_replace}, prob: {prob}")
+        #    print(f"New replace: {new_sentence_replace}, prob: {prob}")
             n2 += n
             
-            print("-------- insert 2 ---------")
+        #    print("-------- insert 2 ---------")
             prob, n, sentence_2 = insert_into_sentence(model, new_sentence_replace, inverted_vocab)
             prob_sum_2 += prob
-            print(f"New insert: {sentence_2}, prob: {prob}")
+         #   print(f"New insert: {sentence_2}, prob: {prob}")
 
             n2 += n
 
@@ -120,9 +124,12 @@ if __name__ == "__main__":
         
         max_prob = max(corrected_versions.keys())
         predicted_sentence = ' '.join(corrected_versions[max_prob])
+
+        print("************************************* \n")
         print(f"Best version with probability {max_prob} is {predicted_sentence}\nOthers:")
-        accuracy = calculate_accuracy(predicted_sentence, correct_sentences[test_sentences.index(sentence)])
-        print(f"Accuracy: {accuracy:.2f}%, compared to: {correct_sentences[test_sentences.index(sentence)]}")
+        accuracy = calculate_accuracy(predicted_sentence, correct_sentence)
+        print(f"Accuracy: {accuracy:.2f}%, compared to: {correct_sentence}")
         for key in corrected_versions.keys():
             if key == max_prob: continue
             print(f"Sentence: {' '.join(corrected_versions[key])}, probability: {key}")
+        print("************************************* \n")

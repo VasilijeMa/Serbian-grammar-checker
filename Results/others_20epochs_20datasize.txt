@@ -1,0 +1,19 @@
+Hegemona je Danas održana u kolu kulture u zakovici ***
+
+Sentence: Ceremonija da je Danas održana u Domu zakovici, probability: 0.8184118270874023
+Sentence: Ceremonija da je Danas održana u kolu kulture u zakovici, probability: 0.8690878947575887
+Sentence: Vermona obavlja je Danas održana u Domu zakovici, probability: 0.8233588536580404
+Sentence: Vermona obavlja je Danas održana u kolu kulture u zakovici, probability: 0.8740349213282267
+Sentence: Heremon je Danas održana u Domu zakovici, probability: 0.8588486611843109
+Sentence: Heremon je Danas održana u Rezoluciju koliku zakovici, probability: 0.8736153244972229
+
+Ot Za je zvanično otkrio sa radom internet portal namenjen elektronskom učenju ***
+
+Sentence: Ot Za je zvanično otkrio sa radom internet porto elektronskom učenju, probability: 0.8621390461921692
+Sentence: Ot Za je zvanično otkrio sa radom u portu elektronskom učenju, probability: 0.9028209845225016
+
+
+Odbojkaška reprezentacija svoje pobedila ***
+
+Sentence: Odbojkaška reprezentacije Srbiše pobedila, probability: 0.0
+Sentence: Odbojkaška reprezentacije pravde Srbine pobedila, probability: 0.9341418743133545
