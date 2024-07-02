@@ -22,8 +22,8 @@ VOCAB_SIZE = 150000
 EMBEDDING_DIM = 64
 HIDDEN_DIM = 128
 
-BATCH_SIZE = 64
-NUM_EPOCHS = 10
+BATCH_SIZE = 256
+NUM_EPOCHS = 20
 
 def load_model(model, checkpoint_path):
     checkpoint = torch.load(checkpoint_path)
@@ -142,18 +142,19 @@ if __name__ == "__main__":
                'predicted_sentence': predicted_sentence,
                'probability': max_prob,
                'accuracy': round(accuracy, 2)
-           }
+            }
 
             results.append(result)
 
 
         df_others = pd.DataFrame(others)
-        df_others.to_csv(f'Results/others_{NUM_EPOCHS}epochs_200data.txt', index=False)
+        df_others.to_csv(f'Results/others_{NUM_EPOCHS}epochs_84.txt', index=False)
 
-        df_results = pd.DataFrame(results)
-        df_results.to_csv(f'Results/results_{NUM_EPOCHS}epochs_200data.csv', index=False)
+        sorted_results = sorted(results, key=lambda x: x['accuracy'], reverse=True)
+        df_results = pd.DataFrame(sorted_results)
+        df_results.to_csv(f'Results/results_{NUM_EPOCHS}epochs_84.csv', index=False)
 
         print("Successfully saved predicted results.")
     else:
         print("There are currently no models imported.")
-        train(model, criterion, optimizer, NUM_EPOCHS, dataloader, 'Models/model_{epoch}epochs_200data_embedding.pth')
+        train(model, criterion, optimizer, NUM_EPOCHS, dataloader, 'Models/model_{epoch}epochs.pth')

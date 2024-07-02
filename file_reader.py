@@ -3,11 +3,11 @@ from preprocessor import preprocess_sentence
 import pandas as pd
 import json
 
-DATA_SIZE = 200
+DATA_SIZE = 5
 LETTERS = string.ascii_letters + " -čćđšžČĆĐŠŽ1234567890"
 
-TEXTS_FILE_NAME = "texts.txt"
-TEST_FILE_NAME = "test_sentences.csv"
+TEXTS_FILE_NAME = "texts_per_line.txt"
+TEST_FILE_NAME = "test_sentences_84.csv"
 VOCAB_FILE_NAME = "dict.txt"
 
 def get_sentences():
@@ -16,10 +16,11 @@ def get_sentences():
         i = 0
         for line in file:
             i+=1
-            lines = line.split("\t")
-            sentences.append(preprocess_sentence(lines[1].strip(), LETTERS))
-            sentences.append(preprocess_sentence(lines[2].strip(), LETTERS))
-            if i==DATA_SIZE: break
+           # lines = line.split("\t")
+         #   sentences.append(preprocess_sentence(lines[1].strip(), LETTERS))
+           # sentences.append(preprocess_sentence(lines[2].strip(), LETTERS))
+            sentences.append(preprocess_sentence(line.strip(), LETTERS))
+          #  if i==DATA_SIZE: break
     return sentences
 
 def get_vocab():

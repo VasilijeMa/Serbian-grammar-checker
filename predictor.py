@@ -2,7 +2,7 @@ import torch
 import torch.nn.functional as F
 from Levenshtein import distance as levenshtein_distance
 
-PROB_THRESHOLD = 0.7
+PROB_THRESHOLD = 0.4
 BUCKET_RANGE = 10
 
 def encode_word(word):

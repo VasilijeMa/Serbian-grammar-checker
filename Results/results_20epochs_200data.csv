@@ -1,0 +1,11 @@
+test_sentence,correct_sentence,predicted_sentence,probability,accuracy
+"Minisđar poslo,va Slovačka Miroslav",Ministar spoljnih poslova Slovačke Miroslav,Ministar poslova Slovačka Miroslav,0.0,76.74
+ne mgu biti uslv za kredit na konsultaciju mosta,ne mogu biti uslov za kredit za konstrukciju mosta,Ne mgu biti usov za kredit na konsultaciju mosta,0.0,84.0
+Srbija putila hitni međusobna zajednci,Srbija uputila hitan zahtev međunarodnoj zajednici,Srbija putila hitni međusobna zajednici,0.0,70.0
+ceremona je održana u klture u Djakovici,ceremonija je održana u Domu kulture u Djakovici,Vermona je održana u kulture u zakovici,0.0,77.08
+Ot kako je zvančno sa radom internet portl elektronskom učenju,Od kako je zvanično počeo sa radom internet portal namenjen elektronskom učenju,Ot kako je zvanično sa radom internet portal usvojen elektronskom učenju,0.8523737192153931,84.81
+neispravljanosti za prve pomoć za motorna vozila,neispravnosti kompleta za prvu pomoć za motorna vozila,Neispravnosti za prve pomoć za motorna vozila,0.0,79.63
+Višlji prosledila pravosnžnu presudu,Viši sud prosledio pravosnažnu presudu,Višnji prosledila u presudu,0.750070333480835,57.89
+Odbojkaška reprezentacije Srbie pobedila,Odbojkaška reprezentacija Srbije je pobedila,Odbojkaška jesenas pobedila,0.8481389880180359,54.55
+Preko 200 učenika niških se priključile ovom pragramu,Preko 200 učenika niških gimnazija se priključilo ovom programu,Preko 200 učenika niških se priključile ovom programu,0.0,82.54
+izbori trebamo budu održani,izbori bi trebalo da budu održani,Izbori trebamo budu održani,0.0,75.76
