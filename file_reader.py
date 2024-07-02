@@ -1,6 +1,7 @@
 import string
 from preprocessor import preprocess_sentence
 import pandas as pd
+import json
 
 DATA_SIZE = 200
 LETTERS = string.ascii_letters + " -čćđšžČĆĐŠŽ1234567890"
