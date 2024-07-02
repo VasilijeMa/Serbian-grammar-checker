@@ -2,11 +2,12 @@ import string
 from preprocessor import preprocess_sentence
 import pandas as pd
 
-DATA_SIZE = 20
+DATA_SIZE = 200
+LETTERS = string.ascii_letters + " -čćđšžČĆĐŠŽ1234567890"
+
 TEXTS_FILE_NAME = "texts.txt"
 TEST_FILE_NAME = "test_sentences.csv"
 VOCAB_FILE_NAME = "dict.txt"
-LETTERS = string.ascii_letters + " -čćđšžČĆĐŠŽ1234567890"
 
 def get_sentences():
     sentences = []
@@ -28,5 +29,5 @@ def get_vocab():
     return vocab
 
 def get_test_data():
-    df = pd.read_csv("test_sentences.csv")
+    df = pd.read_csv(TEST_FILE_NAME)
     return df['test'], df['correct']

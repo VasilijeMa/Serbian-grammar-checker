@@ -38,6 +38,7 @@ def insert_word(model, word_pair, inverted_vocab):
     max_prob, predicted_value = predict_between(model, encode_word(word_pair[0]), encode_word(word_pair[1]))
     predicted_word = inverted_vocab[min(inverted_vocab.keys(), key=lambda k: abs(k - predicted_value))]
     return max_prob, predicted_word
+
 def insert_into_sentence(model, original_sentence, inverted_vocab):
     n = 0
     prob_sum = 0.0
@@ -57,6 +58,7 @@ def insert_into_sentence(model, original_sentence, inverted_vocab):
           #  print(f"Word_pair: {word_pair}, New word: {new_word}, Prob: {prob}")
     new_sentence.append(original_sentence[-1])
     return prob_sum, n, new_sentence
+
 
 def replace_word(model, word_pair, inverted_vocab, original_word):
     max_prob, predicted_value = predict_between(model, encode_word(word_pair[0]), encode_word(word_pair[1]))

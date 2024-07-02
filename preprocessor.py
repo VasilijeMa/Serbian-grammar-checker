@@ -15,7 +15,5 @@ def invert(vocab):
     inverted_vocab = {}
     for word, value in vocab.items():
         inverted_vocab[value] = word
-#        inverted_vocab[value].append(word)
 
-   # print(f"Inverted: {inverted_vocab}")
     return dict(sorted(inverted_vocab.items()))

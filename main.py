@@ -7,21 +7,18 @@ from classes import WordBetweenModel, WordDataset
 from spellchecker import spellcheck_sentence
 from predictor import insert_into_sentence, replace_in_sentence, encode_word, calculate_accuracy
 from preprocessor import *
-from text_reader import *
+from file_reader import *
 
 VOCAB_SIZE = 150000
 EMBEDDING_DIM = 64
 HIDDEN_DIM = 128
 
-BATCH_SIZE = 6
-NUM_EPOCHS = 20
+BATCH_SIZE = 64
+NUM_EPOCHS = 10
 
 if __name__ == "__main__":
     sentences = get_sentences()
     spelling_vocab = get_vocab()
-
-
-
 
     unique_words = set(word for sentence in sentences for word in sentence)
     vocab = {word: encode_word(word) for word in unique_words}
@@ -29,6 +26,9 @@ if __name__ == "__main__":
 
     sequences = [[vocab[word] for word in sentence] for sentence in sentences]
     X_before, X_after, y = create_io_pairs(sequences)
+    print(f"X before {X_before}")
+    print(f"X after {X_after}")
+    print(f"Y {y}")
     X_before = torch.tensor(X_before, dtype=torch.long).unsqueeze(1)
     X_after = torch.tensor(X_after, dtype=torch.long).unsqueeze(1)
     y = torch.tensor(y, dtype=torch.long)
@@ -53,15 +53,9 @@ if __name__ == "__main__":
 
             optimizer.step()
 
+            
+
         print(f'Epoch [{epoch+1}/{NUM_EPOCHS}], Loss: {loss.item():.4f}')
-
-#    test_sentences = ['Minisđar poslo,va Slovačka Miroslav',
- #                     'ne mgu biti uslv za kredit na konsultaciju mosta',
- #                      'Srbija putila hitni međusobna zajednci']
-
- #   correct_sentences = ['Ministar spoljnih poslova Slovačke Miroslav',
- #                        'ne mogu biti uslov za kredit za konstrukciju mosta',
- #                        'Srbija uputila hitan zahtev međunarodnoj zajednici']
 
     test_sentences, correct_sentences = get_test_data()
 
@@ -109,6 +103,7 @@ if __name__ == "__main__":
 
             prob_avg_1 = prob_sum_1
             prob_avg_2 = prob_sum_2
+            
             # Calculate highest probability
             if n1 > 0:
                 prob_avg_1 /= n1

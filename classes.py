@@ -23,6 +23,7 @@ class WordBetweenModel(nn.Module):
 
     def forward(self, x_before, x_after):
         embed_before = self.embedding(x_before)
+        # print(f"Before {embed_before}")
         embed_after = self.embedding(x_after)
         
         combined = torch.cat((embed_before, embed_after), dim=2)
