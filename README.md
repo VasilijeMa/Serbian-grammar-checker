@@ -1,6 +1,8 @@
 # Serbian grammar checker
 Project for the course (The Basics of) Computational Intelligence.
 
+<img src="Posters/Poster.png" alt="Project summary">
+
 ## Credits:
 RA20/2021 Nataša Radmilović  
 SV15/2021 Vasilije Marković
