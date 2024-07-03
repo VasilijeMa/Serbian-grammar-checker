@@ -10,3 +10,10 @@ def create_io_pairs(sequences):
                 X_after.append(sequence[i+1])
                 y.append(sequence[i])
     return X_before, X_after, y
+
+def invert(vocab):
+    inverted_vocab = {}
+    for word, value in vocab.items():
+        inverted_vocab[value] = word
+
+    return dict(sorted(inverted_vocab.items()))

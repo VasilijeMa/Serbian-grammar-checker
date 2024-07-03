@@ -1,39 +1,30 @@
 import torch
-import torch.optim as optim
-import torch.nn as nn
 
-def train(model, num_epochs, dataloader, checkpoint_path):
-    print("Training new model.")
-    criterion = nn.SmoothL1Loss()
-    optimizer = optim.Adam(model.parameters(), lr=0.01)
-    for epoch in range(num_epochs):
-        print(f"Starting epoch {epoch + 1}...")
+def train(model, criterion, optimizer, NUM_EPOCHS, dataloader, checkpoint_path):
+    for epoch in range(NUM_EPOCHS):
+        print(f"Starting epoch {epoch + 1}")
+        i = 1
         epoch_loss = 0.0
-        for inputs_before, inputs_after, targets in dataloader:
+        for input_before, input_after, target in dataloader:
+            input_before = input_before.unsqueeze(1)
+            input_after = input_after.unsqueeze(1)
 
-
-            outputs = model(inputs_before, inputs_after)
-
-            print(f"Ouptuts: {outputs}")
-
-            if outputs.shape != targets.shape:
-                raise ValueError(f"Output shape {outputs.shape} does not match target shape {targets.shape}")
-            
-            loss = criterion(outputs, targets)
+            outputs = model(input_before, input_after)
+            loss = criterion(outputs, target)
             optimizer.zero_grad()
+
             loss.backward()
+
             optimizer.step()
 
             epoch_loss += loss.item()
-    
 
         avg_loss = epoch_loss / len(dataloader)
-        print(f'Epoch [{epoch + 1}/{num_epochs}], Loss: {avg_loss:.4f}')
-
+        print(f'Epoch [{epoch + 1}/{NUM_EPOCHS}], Loss: {avg_loss:.4f}')
 
     state = {
-        'epoch' : num_epochs,
+        'epoch' : NUM_EPOCHS,
         'model_state_dict': model.state_dict(),
         'optimizer_state_dict': optimizer.state_dict(),
     }
-    torch.save(state, checkpoint_path.format(epoch=num_epochs))
+    torch.save(state, checkpoint_path.format(epoch=NUM_EPOCHS))
