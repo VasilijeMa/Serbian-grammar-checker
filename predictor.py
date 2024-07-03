@@ -11,7 +11,7 @@ def encode_word(word):
     for char in reversed(word):
         sum+=(ord(char)**power)
         power*=0.5
-    return sum
+    return sum/1000
 
 def predict_between(model, word_before, word_after):
     model.eval()
@@ -32,33 +32,6 @@ def predict_between(model, word_before, word_after):
         predicted_value = predicted_value.item()
     
     return max_prob, predicted_value
-
-def insert_word(model, word_pair, inverted_vocab):
-
-    max_prob, predicted_value = predict_between(model, encode_word(word_pair[0]), encode_word(word_pair[1]))
-    predicted_word = inverted_vocab[min(inverted_vocab.keys(), key=lambda k: abs(k - predicted_value))]
-    return max_prob, predicted_word
-
-def insert_into_sentence(model, original_sentence, inverted_vocab):
-    n = 0
-    prob_sum = 0.0
-    word_pairs = []
-    for i in range(len(original_sentence) - 1):
-        word_pairs.append([original_sentence[i], original_sentence[i+1]])
-
-    new_sentence = []
-    for word_pair in word_pairs:
-        new_sentence.append(word_pair[0])
-        prob, new_word = insert_word(model, word_pair, inverted_vocab)
-
-        if prob >= PROB_THRESHOLD:
-            prob_sum += prob
-            n += 1
-            new_sentence.append(new_word)
-          #  print(f"Word_pair: {word_pair}, New word: {new_word}, Prob: {prob}")
-    new_sentence.append(original_sentence[-1])
-    return prob_sum, n, new_sentence
-
 
 def replace_word(model, word_pair, inverted_vocab, original_word):
     max_prob, predicted_value = predict_between(model, encode_word(word_pair[0]), encode_word(word_pair[1]))
@@ -100,13 +73,11 @@ def replace_in_sentence(model, original_sentence, inverted_vocab):
             prob_sum += prob
             n += 1
             new_sentence.append(new_word)
-          #  print(f"Word_pair: {word_pair}, New word: {new_word}, Prob: {prob}")
         elif i == len(word_pairs)-1:
             new_sentence.append(original_word)
 
     new_sentence.append(original_sentence[-1])
-    return prob_sum, n, new_sentence
-
+    return prob_sum/n, new_sentence
 
 def calculate_accuracy(predicted_sentence, correct_sentence):
 
