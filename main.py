@@ -39,9 +39,7 @@ if __name__ == "__main__":
 
     sequences = [[vocab[word] for word in sentence] for sentence in sentences]
     X_before, X_after, y = create_io_pairs(sequences)
-    print(f"X before {X_before}")
-    print(f"X after {X_after}")
-    print(f"Y {y}")
+  
     X_before = torch.tensor(X_before, dtype=torch.long).unsqueeze(1)
     X_after = torch.tensor(X_after, dtype=torch.long).unsqueeze(1)
     y = torch.tensor(y, dtype=torch.long)
