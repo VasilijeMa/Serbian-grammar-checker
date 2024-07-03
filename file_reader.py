@@ -1,26 +1,23 @@
 import string
 from preprocessor import preprocess_sentence
 import pandas as pd
-import json
+import torch
 
-DATA_SIZE = 5
+DATA_SIZE = 1600
 LETTERS = string.ascii_letters + " -čćđšžČĆĐŠŽ1234567890"
 
-TEXTS_FILE_NAME = "texts_per_line.txt"
-TEST_FILE_NAME = "test_sentences_84.csv"
-VOCAB_FILE_NAME = "dict.txt"
+TRAIN_FILE_NAME = "data/texts_per_line.txt"
+TEST_FILE_NAME = "data/test_sentences_84.csv"
+VOCAB_FILE_NAME = "data/dict.txt"
 
 def get_sentences():
     sentences = []
-    with open(TEXTS_FILE_NAME, 'r', encoding='utf-8') as file:
+    with open(TRAIN_FILE_NAME, 'r', encoding='utf-8') as file:
         i = 0
         for line in file:
             i+=1
-           # lines = line.split("\t")
-         #   sentences.append(preprocess_sentence(lines[1].strip(), LETTERS))
-           # sentences.append(preprocess_sentence(lines[2].strip(), LETTERS))
             sentences.append(preprocess_sentence(line.strip(), LETTERS))
-          #  if i==DATA_SIZE: break
+            if i==DATA_SIZE: break
     return sentences
 
 def get_vocab():
@@ -33,3 +30,8 @@ def get_vocab():
 def get_test_data():
     df = pd.read_csv(TEST_FILE_NAME)
     return df['test'], df['correct']
+
+def load_model(model, checkpoint_path):
+    checkpoint = torch.load(checkpoint_path)
+    model.load_state_dict(checkpoint['model_state_dict'])
+    return model
