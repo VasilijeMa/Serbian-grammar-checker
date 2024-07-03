@@ -3,12 +3,12 @@ from preprocessor import preprocess_sentence
 import pandas as pd
 import torch
 
-DATA_SIZE = 1500
+DATA_SIZE = 1600
 LETTERS = string.ascii_letters + " -čćđšžČĆĐŠŽ1234567890"
 
-TRAIN_FILE_NAME = "texts_per_line.txt"
-TEST_FILE_NAME = "test_sentences_84.csv"
-VOCAB_FILE_NAME = "dict.txt"
+TRAIN_FILE_NAME = "data/texts_per_line.txt"
+TEST_FILE_NAME = "data/test_sentences_84.csv"
+VOCAB_FILE_NAME = "data/dict.txt"
 
 def get_sentences():
     sentences = []
