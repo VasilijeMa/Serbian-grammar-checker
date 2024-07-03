@@ -8,7 +8,7 @@ LETTERS = string.ascii_letters + " -čćđšžČĆĐŠŽ1234567890"
 
 TEXTS_FILE_NAME = "Data/texts_per_line.txt"
 TEST_FILE_NAME = "Data/test_sentences_170.csv"
-VOCAB_FILE_NAME = "dict.txt"
+VOCAB_FILE_NAME = "Data/dict.txt"
 
 VALID_FILE_NAME = "Data/validation.txt"
 def get_validation_sentences():
