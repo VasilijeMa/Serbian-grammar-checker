@@ -1,0 +1,160 @@
+0
+"Policjac, pljočkaš i slučajn ranjeni u razmjeni vatre potjere poslije pljake banke u beogradskom Braće Jerković, javlja B92."
+*************************************
+"Sentence: Polojac pljačkaš i slučaju ranjeni u razmjeni vatre potjere poslije šljake banke u beogradskom Braće Jerković javlja B92, probability: 0.0"
+*************************************
+Osam osoba privedeno je na graničnu prijelazu Horgoš po pvratku iz Đenove saopštile je Ministarstvo poslova Srbije.
+*************************************
+*************************************
+"Moguće da neko političke pretenzije da utiče na Srpsku pravoslavnu crakvu, ali je nemoguće uticati na odluke koje ponosi Sveti arhijerejski zabor, pogotovo kada je u pitanju srpskog patrijarha, rekao ministar vera Bogoljub Šijaković."
+*************************************
+"Sentence: Moguće da je neko političke pretenzije da utiče na Srpsku u pravoslavnu u crkvu ali da je nemoguće uticati na odluke koje ponosi Sveti arhijerejski zbor pogotovo kada je u pitanju srpskog patrijarha rekao ministar vera Bogoljub Šijaković, probability: 0.514980673789978"
+*************************************
+"Među uhapšenima je petoro službenika Uprave za igre na sreću Ministarstva finansija, koji se terete za korupciju u državnim organima."
+*************************************
+*************************************
+Ministarstvo finansija Srbije će postupiti po preporukama Evropske komisije koje se odnose na primjenu različitih akciza na gorivo u Srbiji.
+*************************************
+*************************************
+"Podpretsednik Vlade Srbije Jovan Krkobabić izjavio je večeraas da je u ovom trenutak nepotrbno vršiti rekonstrukciju Vlade, ali da će on prihvatiti takvo ukoliko svi koalicione partneri postignu dogovor oko tog pitanja."
+*************************************
+*************************************
+"Pretsednik južna Sudana Salva Kir je referendum na kajem pravo glasa ima oko četiri ljudi nazvao ""istorijzkim trenutkom""."
+*************************************
+*************************************
+Jeremić je to rekao komentarisajući pitanje demarkacije između Crne Gore i Kosova koje prištinske vlasti.
+*************************************
+"Sentence: Jeremić učlanio je to rekao je komentarisali pitanje demarkacije između Crne Gore i Kosova koje prištinske vlasti, probability: 0.5596261620521545"
+"Sentence: Jeremić učlanio je to de komentarisanju pitanje demarkacije između Crne Gore i Kosova koje prištinske vlasti, probability: 0.5568388551473618"
+*************************************
+"Euleks ne vodi itragu kosovskog premijera Hašima Tačija, reko je zamenik šefa misije EU Andi Sparks u vezi izveštajem Dika Martija."
+*************************************
+"Sentence: Euleks ne vodi istragu kosovskog premijera Hašima Tačija reko da je zamenik šefa misije EU u Andi Spark u vezi sa izveštajem Dika Martija, probability: 0.545567790667216"
+"Sentence: Euleks ne vodi na tragu kosovskog premijera Hašima Tačija reko da je zamenik šefa misije EU u parks u vezi sa izveštajem Dika Martija, probability: 0.55467189848423"
+"Sentence: Euleks ne vodi na tragu kosovskog premijera Hašima Tačija reko da je zamenik šefa misije EU u Andi Spark u vezi sa izveštajem Dika Martija, probability: 0.5422423630952835"
+*************************************
+"Miting 16. aprila u Beogradu trajaće sve vlasti ne raspišu vandredne parlamentarne izbore, poručio je u Leskovcu pretsednik Srpske napredne stranke (SNS) Tomislav Nikolić, koji smatra da je vladajuća izgubila vezu sa narodom, pa ne kako u Srbiji ljudi žive."
+*************************************
+*************************************
+"Ambasador Holandije u Beogradu Ronald van Dartel izjavio je danas da se postojeće investicije te zemlje u Srbiji uvećavaju, ali i dodao da u ovom trenutku ne može najaviti nove investicije."
+*************************************
+*************************************
+"Austriska policija je međunardn poternicu za 25-godišnjim Srbinom Milosavom Maletićem, osumljičenim za ubistvo deteta."
+*************************************
+"Sentence: Lustrika policija je međunaroda u poternicu za 25-godišnjim Srbinom Milosavom Maletićem osumnjičenim za ubistvo deteta, probability: 0.7041727304458618"
+"Sentence: Lustrika policija je u poternicu za 25-godišnjim Srbinom Milosavom Maletićem osumnjičenim za ubistvo deteta, probability: 0.6717660427093506"
+"Sentence: Lustrika policija je međunarode u poternicu za 25-godišnjim Srbinom Milosavom Maletićem osumnjičenim za ubistvo deteta, probability: 0.8071852922439575"
+"Sentence: Lustrika policija je međunarodi u poternicu za 25-godišnjim Srbinom Milosavom Maletićem osumnjičenim za ubistvo deteta, probability: 0.6813194155693054"
+"Sentence: Lustrika policija je međunarodna u poternicu za 25-godišnjim Srbinom Milosavom Maletićem osumnjičenim za ubistvo deteta, probability: 0.8281102776527405"
+"Sentence: Lustrika policija je međunarodnm u poternicu za 25-godišnjim Srbinom Milosavom Maletićem osumnjičenim za ubistvo deteta, probability: 0.8436055779457092"
+"Sentence: Lustrika policija je u međunarodnu u poternicu za 25-godišnjim Srbinom Milosavom Maletićem osumnjičenim za ubistvo deteta, probability: 0.7759898602962494"
+*************************************
+"Lider Liberalno-demokratske partije (LDP) Čedomir Jovanović reko je da mu je žao ako je bilo ko u onome što je reko u Skupštini Srbije prepoznao omalovažabanj drzava ili naroda Afrike jer to, naveo je, nije tačno."
+*************************************
+"Sentence: Lider Liberalno-demokratske partije LDP Čedomir Jovanović Beko da je Arkas da mi je žao ako je bilo de u onome što je reko u Skupštini Srbije prepoznao je omalovažavan u ili naroda Afrike jer te naveo je nije tačno, probability: 0.5640833750367165"
+"Sentence: Lider Liberalno-demokratske partije LDP Čedomir Jovanović Beko da je Arkas da mi je žao ako je bilo de u onome što je reko u Skupštini Srbije u omalovažavanju trzava ili naroda Afrike jer te naveo je nije tačno, probability: 0.5758075288363865"
+*************************************
+Nemački ambasador u Beogradu Volfram Mas demantovao je danas špekulacije da se Nemci protive daljem proširenju EU i istakao da Nemačka podržava evropske integracije zapadnog Balkana.
+*************************************
+*************************************
+Ministar poslova Srbije Vuk Jeremić izjavijo je danas u Briselu da nije čuo od evropske komesara za proširenae Štefana Filea da se pred Zrbiju postavljaju novi za pridružavanje Evropskoj uniji u vidu Kosova.
+*************************************
+"Sentence: Ministar poslova Srbije Vuk Jeremić izjavio je danas u Briselu i da nije čuo od evropske komesara za proširenje Štefana Filea da će se pred Srbiju postavljaju novi za u Evropskoj uniji pa Kosova, probability: 0.5609665632247924"
+"Sentence: Ministar poslova Srbije Vuk Jeremić izjavio da je danas u Briselu i da nije čuo od evropske komesara za proširenje Štefana Filea da će se pred Srbiju postavljaju novi za pridruživanje u Evropskoj uniji pa Kosova, probability: 0.5995640397071839"
+"Sentence: Ministar poslova Srbije Vuk Jeremić izjavio da je danas u Briselu i da nije čuo od evropske komesara za proširenje Štefana Filea da će se pred Srbiju postavljaju novi za u Evropskoj uniji pa Kosova, probability: 0.5475407361984252"
+*************************************
+Posebno odeljelje Višeg suda u Beogradu osudilo je danas na ukupno 38 godina osmočlanu kriminalnu grupe Darka Ercega zbog šverca kokaina i heroina u zemlje zapadne Evrope.
+*************************************
+*************************************
+Vlada Srbije donela je odlka da se obustavi uvoz vakcina za novog gripa.
+*************************************
+*************************************
+"Deo fudbalskog stadijona u Enšedeu urušio se i zatrpala za sada nepoznatih broj ljudi, saopštila je danas holadska policija."
+*************************************
+*************************************
+"Trener milanskog Intera Žoze Murinjo je Laciju 19-godišnjeg Davida Santona u zamenu za srbskog defanzivca Aleksandra Kolarova, prenosi ""Gazeta delo sport""."
+*************************************
+"Sentence: Trener milanskog Intera Žoze Murinjo da je u Laciju 19-godišnjeg Davida Santora pa zamenu za srbskog defanzivca Aleksandra Kolarova prenosi Gazeta delo sport, probability: 0.4756544828414917"
+*************************************
+"Četvorica lažna policajaca oduzeli su jdnom Nišliji mobilni ajfon, 700 evara, 5.000 dinara, ručni sat „fosil“ i novčanik sa kartica banaka na Beograd–Niš."
+*************************************
+"Sentence: Četvorica lažna policajaca oduzeli su junom Nišliji mobilni ajfon 700 dva uvara 5000 dinara ručni sat fosil i novčanik sa kartica banaka na Beogradi, probability: 0.6044925451278687"
+"Sentence: Četvorica lažna policajaca oduzeli su junom Nišliji mobilni ajfon 700 dva Ševara 5000 dinara ručni sat fosil i novčanik sa kartica banaka na Beogradi, probability: 0.5703222751617432"
+"Sentence: Četvorica lažna policajaca oduzeli su junom Nišliji mobilni ajfon 700 vara 5000 dinara ručni sat fosil i novčanik sa kartica banaka na Beogradi, probability: 0.0"
+"Sentence: Četvorica lažna policajaca oduzeli u jodnom Nišliji mobilni ajfon 700 dva uvara 5000 dinara ručni sat fosil i novčanik sa kartica banaka na Beogradi, probability: 0.6152625381946564"
+"Sentence: Četvorica lažna policajaca oduzeli u jodnom Nišliji mobilni ajfon 700 dva Ševara 5000 dinara ručni sat fosil i novčanik sa kartica banaka na Beogradi, probability: 0.5981774032115936"
+*************************************
+"Posle reforme pravosuđa u Srbiji mesečni na nivou svih pravosudljih organa smanjeni su za 26 miliona dinara, a te uštede biće preusmerena u investicije, izjavila je ministarka pravde Snežana Malović."
+*************************************
+*************************************
+"Rok za izdavanje novih ličnih dokumenta trebalo bi da bude produžen, kao i rok za zamena starih pasoša, najavio je miistar unutrašnjih poslova Srbije, Ivica Dačić."
+*************************************
+*************************************
+Dinkić potneo ostavka premijeru i najavio da će ubuduće biti šef poslaničke grupe.
+*************************************
+*************************************
+"Narodna biblioteka Srbije i Fond Dr Zoran Đinđić objavili su novo knjige Zorana Đinđića „Jesen dijalektike“, kao drugu po redu u ciklasu knjigu Izabranih delo ubijenog srpskog premijera."
+*************************************
+*************************************
+"Nemačko Državno tužilaštvo otvorila je zvaničnu istragu povotom tragedije koja se u subotu dogodila na tehno manifestaciji „Parada ljubavi“ u Duizburgu, kada je u stampeda ispred tunela koji je služio kao ulaz na događaj poginulo 19 osoba, a najmanje 350 ljudi je povređno."
+*************************************
+*************************************
+"Deklaracija o Srebrenici, koju je usvojio srpski parlament, mora ući u obrazovni sistem Srbije, smatra predsednica Helsinškog odbora za ljudska prava u Beogradu Sonja Biserko."
+*************************************
+*************************************
+"Izgradnju nove rafinerie vodiće država, kaže Dulić i dodaje da Srpija neće dozvliti prljave tehnologije i životne sredine, ali i da želi velike invasticije."
+*************************************
+*************************************
+"Medjunarodni dan nestalih, 30. avgust, obeležavo se sutra, a prema podacima Medjunarodno komiteta Crvenog, nakon ratova u bivšim Jugoslaviji još se traga za 14.790 ljudi."
+*************************************
+*************************************
+"Zamjenik srpskog tužioca za ratne zločine Bruno Vekarić rekao je da Ratko Mladić u pritvru Specijalnog suda u Beogradu nema posebno tretman, ali je prenio svoj utisak da uhapšena general sebe ne doživljava kao osumljičenog za zločin u Srebrenici."
+*************************************
+*************************************
+"Poslanik koalicije Albanaca preševske doline Riza Haljimi ocenijo je za Danas da je za njega predložene deklaracija o osudi zločina nad pripadnicima srpskog i građanima Srbije neprihvatljiva, jer u njoj nisu pomenuti zločini nad civilima u opštini Preševo za vreme ratnog stanja."
+*************************************
+"Sentence: Poslanik koalicije Albanaca preševske doline Riza Haljimi ocenilo da je za Danas da li je za njega i predložene deklaracija porodilja o osudi zločina za nad pripadnicima srpskog i građanima Srbije neprihvatljiva jer je u njoj nisu pomenuti zločini Kim civilima u opštini Preševo za vreme ratnog stanja, probability: 0.49154739720480783"
+"Sentence: Poslanik koalicije Albanaca preševske doline Riza Haljimi ocenino je za Danas da li je za njega i predložene deklaracija porodilja o osudi zločina za nad pripadnicima srpskog i građanima Srbije neprihvatljiva jer je u njoj nisu pomenuti zločini Kim civilima u opštini Preševo za vreme ratnog stanja, probability: 0.5027665098508199"
+*************************************
+"Vlada priprema program za podsticanje razvoja manje razvijenih područja u Srbiji, vredan 100 miliona evra, rekao je potpretsednik Vlade Srbije i ministar i regionalnog razvoja Mlađan Dinkić na sastanku Poslovnog saveta u Palati Srbija."
+*************************************
+*************************************
+"Oliver Dulić, ordoped po profesiji, danas je ministar sredine i prostornu planiranja koji valja kompjutere."
+*************************************
+*************************************
+"Ministar poslova Vuk Jeremić izjavio je danas, na Trećem forumu alijanse rivilizacija UN u Rio de Žaneiru da interkulturalni dialog za Srbiju predstavlja prioritet i da je pomirenje jedini da se razbije krug mržnje i nasilja koji pogađa ovaj region."
+*************************************
+*************************************
+"Izbore treba raspisati tek kad dobijemo status kandidata za članstvo u EU, rekao je predsednik Demokratske stranke Boris Tadić na subotnjoj sednici Glavnog odbora ove stranke."
+*************************************
+*************************************
+"Predsednik DSS-a Vojislav Koštunica ocenio je u Šabcu da je Vlada Srbije uspešna u ""gubljenju vremena"" i da ne žive u istom vremenu kao građano."
+*************************************
+"Sentence: Predsednik DSSP Vojislav Koštunica ocenio da je Za Šabecu da li će Vlada Srbije uspešna u gubljenju vremena i da ne žive u istom vremenu kao rađano, probability: 0.5953107252717018"
+"Sentence: Predsednik Odbojkašice SSSRa Vojislav Koštunica ocenio da je u Šarcu da li će Vlada Srbije uspešna u gubljenju vremena i da ne žive u istom vremenu kao rađano, probability: 0.60966956615448"
+"Sentence: Predsednik Odbojkašice SSSRa Vojislav Koštunica ocenio da je Za Šabecu da li će Vlada Srbije uspešna u gubljenju vremena i da ne žive u istom vremenu kao rađano, probability: 0.5684835255146027"
+*************************************
+"Najmnje 44 osobe su poginula, a više od 600 ljudi je nestalo u poplavama i klizištima u severnim brazilskim Alagoas i Pernambuko, javila je agencija Rojters."
+*************************************
+*************************************
+"Službenici Policijske upravih u Novom Sadu lišili slobode Ivana Markovića (1969) iz Novog Sada zbog osnovane sumlje da je izvršio umistvo u pokušaju glumca Borisa Isakovića, kao i krivično delo nedozvoljena proizvodnja, držanje, nošenje i promet oružja i eksplozivne materija."
+*************************************
+*************************************
+"Najmanje 27 ljudi ubijeno je trećeg dana sukoba izmedju pripadnika provladine milicje i pobunjeničkih grupe al Šabab u centralnoj Somaliji, saopštili su danas svedoci i predstavnici organizacija za zaštita ljudskih prava."
+*************************************
+"Sentence: Najmanje 27 ljudi ubijeno je trećeg dana sukoba izmene pripadnika oba milice i pobunjeničkih grupe al Šabar da centralnoj Somaliji saopštili su danas svedoci i predstavnici organizacija za zaštita ljudskih prava, probability: 0.46543122331301373"
+"Sentence: Najmanje 27 ljudi ubijeno je trećeg dana sukoba izmene pripadnika provladine milinje i pobunjeničkih grupe al Šaban u centralnoj Somaliji saopštili su danas svedoci i predstavnici organizacija za zaštita ljudskih prava, probability: 0.4512135684490204"
+"Sentence: Najmanje 27 ljudi ubijeno je trećeg dana sukoba izmene pripadnika provladine milinje i pobunjeničkih grupe al Šabar da centralnoj Somaliji saopštili su danas svedoci i predstavnici organizacija za zaštita ljudskih prava, probability: 0.42631669342517853"
+*************************************
+"Srbija i Grčka su istorijski partneri i prijatelji, a to će i ostati, izjavio sinoć predsednik Srbije Boris Tadić posle razgovara s premijerom Grčke Jorgosom Papandreuom i zahvalio mu na podrški koju pruža Srbiji u integracijama."
+*************************************
+*************************************
+"Više novinarskih i mediskih zatražilo je danas od države da zabrani rad i delovanje ekstremistička, klerofašističkih, neonacističkih i rasističkih grupa u Srbiji."
+*************************************
+*************************************
+"Albanija je danas pozdravila prve dogovare između Beograda i Prištine, postignute u subotu tokom peta runde pregovora u Briselu, isticai da će od toga najviše koristi imati građani."
+*************************************
+*************************************
+Ponegde je moguća kratktrjna kiša uglavnom u centralnim i istočne predelima.
+*************************************
+*************************************

@@ -1,0 +1,11 @@
+test,correct,predicted_sentence (max_prob),probability,accuracy [%]
+"Minisđar poslo,va Slovačka Miroslav",Ministar spoljnih poslova Slovačke Miroslav,Ministar spoljnih poslova Slovačke Miroslav,0.967,100
+ne mgu biti uslv za kredit na konsultaciju mosta,ne mogu biti uslov za kredit za konstrukciju mosta,Ne mogu biti uslov za predaju na konsultaciju mosta,0.9,80.39
+Srbija putila hitni međusobna zajednci,Srbija uputila hitan zahtev međunarodnoj zajednici, Srbija putila BiH biti su međusobna obavlja zajednici,0.92,60.38
+ceremona je održana u klture u Djakovici,ceremonija je održana u Domu kulture u Djakovici,Hegemona je Danas održana u kolu kulture u zakovici ***,0.934,72.55
+Ot kako je zvančno sa radom internet portl elektronskom učenju,Od kako je zvanično počeo sa radom internet portal namenjen elektronskom učenju,Ot Za je zvanično otkrio sa radom internet portal namenjen elektronskom učenju ***,0.904,88.61
+neispravljanosti za prve pomoć za motorna vozila,neispravnosti kompleta za prvu pomoć za motorna vozila,Neispravnosti za prve pomoć za motorna vozila,0,79.63
+Višlji prosledila pravosnžnu presudu,Viši sud prosledio pravosnažnu presudu,Višnji prosledila pravosnažnu presudu,0,81.58
+Odbojkaška reprezentacije Srbie pobedila,Odbojkaška reprezentacija Srbije je pobedila,Odbojkaška reprezentacija svoje pobedila ***,0.948,84.09
+Preko 200 učenika niških se priključile ovom pragramu,Preko 200 učenika niških gimnazija se priključilo ovom programu,Preko 200 obavlja učenika niških se priključile ovom programu,0.754,69.84
+izbori trebamo budu održani,izbori bi trebalo da budu održani,Izbori trebamo budu održani,0,75.76
