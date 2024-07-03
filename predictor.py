@@ -3,7 +3,7 @@ import torch.nn.functional as F
 from Levenshtein import distance as levenshtein_distance
 
 PROB_THRESHOLD = 0.4
-BUCKET_RANGE = 10
+BUCKET_RANGE = 1.0/100
 
 def encode_word(word):
     sum = 0.0
@@ -18,15 +18,17 @@ def predict_between(model, word_before, word_after):
     
     indices_before = [word_before]
     indices_after = [word_after]
+
     
     input_before = torch.tensor([indices_before], dtype=torch.long).unsqueeze(1)
     input_after = torch.tensor([indices_after], dtype=torch.long).unsqueeze(1)
-    
+
     with torch.no_grad():
         output = model(input_before, input_after)
         probabilities = F.softmax(output, dim=1)
 
-        max_prob, predicted_value = torch.max(probabilities, 1)
+
+        max_prob, predicted_value = torch.max(probabilities, dim=1)
 
         max_prob = max_prob.item()
         predicted_value = predicted_value.item()
