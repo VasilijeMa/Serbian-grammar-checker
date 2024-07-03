@@ -6,9 +6,17 @@ import json
 DATA_SIZE = 5
 LETTERS = string.ascii_letters + " -čćđšžČĆĐŠŽ1234567890"
 
-TEXTS_FILE_NAME = "texts_per_line.txt"
-TEST_FILE_NAME = "test_sentences_84.csv"
+TEXTS_FILE_NAME = "Data/texts_per_line.txt"
+TEST_FILE_NAME = "Data/test_sentences_170.csv"
 VOCAB_FILE_NAME = "dict.txt"
+
+VALID_FILE_NAME = "Data/validation.txt"
+def get_validation_sentences():
+    sentences = []
+    with open(VALID_FILE_NAME, 'r', encoding='utf-8') as file:
+        for line in file:
+            sentences.append(preprocess_sentence(line.strip(), LETTERS))
+    return sentences
 
 def get_sentences():
     sentences = []
@@ -16,10 +24,8 @@ def get_sentences():
         i = 0
         for line in file:
             i+=1
-           # lines = line.split("\t")
-         #   sentences.append(preprocess_sentence(lines[1].strip(), LETTERS))
-           # sentences.append(preprocess_sentence(lines[2].strip(), LETTERS))
             sentences.append(preprocess_sentence(line.strip(), LETTERS))
+            # For limiting training data size
           #  if i==DATA_SIZE: break
     return sentences
 

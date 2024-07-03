@@ -1,0 +1,562 @@
+0
+"Policjac, pljočkaš i slučajni prolaznik ranjeni u razmjeni vatre prlikom potjere poslije pljake banke u beogradskom naselje Braće Jerković, javlja B92."
+*************************************
+"Sentence: Polojac pljačkaš i slučajni prolaznik ranjeni u razmjeni vatre Velikoj potjere poslije pljačke banke u beogradskom naselja Braće Jerkova javlja B92, probability: 0.3282090127468109"
+*************************************
+Osam osoba privedeno je na graničnu prijelazu Horgoš po pvratku iz Đenove saopštile je Ministarstvo unutrašnjih poslova Srbije.
+*************************************
+*************************************
+"Moguće da neko ima političke pretenzije da utiče na Srpsku pravoslavnu crakvu, ali je nemoguće uticati na odluke koje ponosi Sveti arhijerejski zabor, pogotovo kada je u pitanju izbor srpskog patrijarha, rekao ministar vera Bogoljub Šijaković."
+*************************************
+"Sentence: Moguće da neko ima političke pretenzije da utiče na Srpsku pravoslavne crkvu ali je nemoguće uticati na odluke koje ponosi Sveti arhijerejski zbor pogotovo kada je u pitanju izbor srpskog patrijarha rekao ministara vera Bogoljub Šijaković, probability: 0.3247978985309601"
+*************************************
+"Među uhapšenima je petoro službenika Uprave za igre na sreću Ministarstva finansija, koji se terete za korupciju u državnim organima."
+*************************************
+*************************************
+Ministarstvo finansija Srbije će postupiti po preporukama Evropske komisije koje se odnose na primjenu različitih akciza na gorivo u Srbiji.
+*************************************
+*************************************
+"Podpretsednik Vlade Srbije Jovan Krkobabić izjavio je večeraas da je u ovom trenutak nepotrbno vršiti rekonstrukciju Vlade, ali da će on prihvatiti takvo rešenje ukoliko svi koalicione partneri postignu dogovor oko tog pitanja."
+*************************************
+*************************************
+"Pretsednik južna Sudana Salva Kir je referendum na kajem pravo glasa ima oko četiri miliona ljudi nazvao ""istorijzkim trenutkom""."
+*************************************
+*************************************
+Jeremić je to rekao komentarisajući pitanje demarkacije granice između Crne Gore i Kosova koje traže prištinske vlasti.
+*************************************
+*************************************
+"Euleks ne vodi itragu protiv kosovskog premijera Hašima Tačija, reko je zamenik šefa misije EU Andi Sparks u vezi sa izveštajem Dika Martija."
+*************************************
+"Sentence: Euleks ne vodi tragu protiv kosovskog premijera Hašima Tačija reke je zamenik šefa misije EU and parks u vezi sa izveštajem Dika Martija, probability: 0.31441207230091095"
+*************************************
+"Miting 16. aprila u Beogradu trajaće dok sve vlasti ne raspišu vandredne parlamentarne izbore, poručio je u Leskovcu pretsednik Srpske napredne stranke (SNS) Tomislav Nikolić, koji smatra da je vladajuća koalicija izgubila vezu sa narodom, pa ne zna kako u Srbiji ljudi žive."
+*************************************
+*************************************
+"Ambasador Holandije u Beogradu Ronald van Dartel izjavio je danas da se postojeće investicije te zemlje u Srbiji uvećavaju, ali i dodao da u ovom trenutku ne može najaviti nove investicije."
+*************************************
+*************************************
+"Austriska policija raspisala je međunardn poternicu za 25-godišnjim Srbinom Milosavom Maletićem, osumljičenim za ubistvo deteta."
+*************************************
+"Sentence: Lustrika policija raspisala je međunarodnu poternicu za 25-godišnjim Srbinom Milosavom Maletićem osumnjičenih za ubistvo deteta, probability: 0.32759642601013184"
+"Sentence: Lustrika policija raspisala je međunarodne poternica za 25-godišnjim Srbinom Milosavom Maletićem osumnjičenih za ubistvo deteta, probability: 0.33129793405532837"
+"Sentence: Lustrika policija raspisala je međunarodni poternica za 25-godišnjim Srbinom Milosavom Maletićem osumnjičenih za ubistvo deteta, probability: 0.314795657992363"
+*************************************
+"Lider Liberalno-demokratske partije (LDP) Čedomir Jovanović reko je da mu je žao ako je bilo ko u onome što je reko u Skupštini Srbije prepoznao omalovažabanj drzava ili naroda Afrike jer to, naveo je, nije tačno."
+*************************************
+"Sentence: Lider Liberalno-demokratske partije LDP Čedomir Jovanović reke je da mi je žao a je bilo ka u onome šta je reko u Skupštini Srbije prepoznao ublažavanja trzava ili naroda Afrike jer to nade je nije tačno, probability: 0.384818366595677"
+"Sentence: Lider Liberalno-demokratske partije LDP Čedomir Jovanović reke je da mi je žao a je bilo ka u onome šta je reko u Skupštini Srbije prepoznao ublažavanja drzave ili naroda Afrike jer to nade je nije tačno, probability: 0.3812638648918697"
+"Sentence: Lider Liberalno-demokratske partije LDP Čedomir Jovanović reke je da mi je žao a je bilo ka u onome šta je reko u Skupštini Srbije prevoza omalovažavanja trzava ili naroda Afrike jer to nade je nije tačno, probability: 0.385875940322876"
+*************************************
+Nemački ambasador u Beogradu Volfram Mas demantovao je danas špekulacije da se Nemci protive daljem proširenju EU i istakao da Nemačka podržava evropske integracije zapadnog Balkana.
+*************************************
+*************************************
+Ministar spoljni poslova Srbije Vuk Jeremić izjavijo je danas u Briselu da nije čuo od evropske komesara za proširenae Štefana Filea da se pred Zrbiju postavljaju novi uslovi za pridružavanje Evropskoj uniji u vidu priznavanja Kosova.
+*************************************
+"Sentence: Ministar spoljni poslova Srbije Vuk Jeremić izjavio je danas u Briselu da nije Sud od evropske komičara za proširenje Štefana Čilea da se pred Srbiju postavljaju novi uslovi za pridržavanje Evropskoj uniji u vidu priznavanja Kosova, probability: 0.4194961190223694"
+"Sentence: Ministar spoljni poslova Srbije Vuk Jeremić izjavio je danas u Briselu da nije Sud od evropske komičara za proširenje Štefana Čilea da se pred Srbiju postavljaju novi uslovi za pridržavanje Evropskoj uniji u vidu priznavanja Kosova, probability: 0.3555002361536026"
+"Sentence: Ministar spoljni poslova Srbije Vuk Jeremić izjavio je danas u Briselu da nije Sud od evropske komičara za proširenje otežana Filea da se pred Srbiju postavljaju novi uslovi za pridržavanje Evropskoj uniji u vidu priznavanja Kosova, probability: 0.3389705220858256"
+*************************************
+Posebno odeljelje Višeg suda u Beogradu osudilo je danas na ukupno 38 godina zatvor osmočlanu kriminalnu grupe Darka Ercega zbog šverca kokaina i heroina u zemlje zapadne Evrope.
+*************************************
+*************************************
+Vlada Srbije donela je odlka da se obustavi uvoz vakcina za novog gripa.
+*************************************
+"Sentence: Vlada Srbije donela je odluka da se obustavi uvod vakcina za novog gripa, probability: 0.3019948899745941"
+*************************************
+"Deo fudbalskog stadijona u Enšedeu urušio se i zatrpala za sada nepoznatih broj ljudi, saopštila je danas holadska policija."
+*************************************
+*************************************
+"Trener milanskog Intera Žoze Murinjo ponudio je Laciju 19-godišnjeg Davida Santona u zamenu za srbskog defanzivca Aleksandra Kolarova, prenosi ""Gazeta delo sport""."
+*************************************
+*************************************
+"Četvorica lažna policajaca oduzeli su jdnom Nišliji mobilni telefon ajfon, 700 evara, 5.000 dinara, ručni sat „fosil“ i novčanik sa kartica banaka na autoput Beograd–Niš."
+*************************************
+"Sentence: Četvorica lažne policajaca oduzeli su junom Nišliji mobilni telefon aviona 700 kvara CT dinara ručni sat fosil i novčanik sa kartica banaka na autoput Beogradi, probability: 0.35273223121960956"
+*************************************
+"Posle reforme pravosuđa u Srbiji mesečni rashodi na nivou svih pravosudljih organa smanjeni su za 26 miliona dinara, a te uštede biće preusmerena u investicije, izjavila je ministarka pravde Snežana Malović."
+*************************************
+"Sentence: Posle reforme pravosuđa u Srbiji mesečni rashodima na nivo svih pravosudnih organa smanjeni sa za CT miliona dinara a te štete biće preusmerena U investicije izjavila je ministarka pravde Snežana Malović, probability: 0.329386701186498"
+*************************************
+"Rok za izdavanje novih ličnih dokumenta trebalo bi da bude produžen, kao i rok za zamena starih pasoša, najavio je miistar unutrašnjih poslova Srbije, Ivica Dačić."
+*************************************
+*************************************
+Dinkić potneo ostavka premijeru i najavio da će ubuduće biti šef poslaničke grupe.
+*************************************
+*************************************
+"Narodna biblioteka Srbije i Fond Dr Zoran Đinđić objavili su novo izdanje knjige Zorana Đinđića „Jesen dijalektike“, kao drugu po redu u ciklasu knjigu Izabranih delo ubijenog srpskog premijera."
+*************************************
+*************************************
+"Nemačko Državno tužilaštvo otvorila je zvaničnu istragu povotom tragedije koja se u subotu dogodila na tehno manifestaciji „Parada ljubavi“ u Duizburgu, kada je u stampeda ispred tunela koji je služio kao ulaz na događaj poginulo 19 osoba, a najmanje 350 ljudi je povređno."
+*************************************
+*************************************
+"Deklaracija o Srebrenici, koju je usvojio srpski parlament, mora ući u obrazovni sistem Srbije, smatra predsednica Helsinškog odbora za ljudska prava u Beogradu Sonja Biserko."
+*************************************
+*************************************
+"Izgradnju nove rafinerie nafte vodiće država, kaže Dulić i dodaje da Srpija neće dozvliti prljave tehnologije i zagađenje životne sredine, ali i da želi velike invasticije."
+*************************************
+"Sentence: Izgradnju nove rafinerije nafte vodiće država kaže Dulić i dodje da Srbija neće dozvolila prljave tehnologije i zagađenje životne sredine ali i da želi velike investicije, probability: 0.32445378601551056"
+*************************************
+"Medjunarodni dan nestalih, 30. avgust, obeležavo se sutra, a prema podacima Medjunarodno komiteta Crvenog krsta, nakon ratova u bivšim Jugoslaviji još se traga za 14.790 ljudi."
+*************************************
+"Sentence: Međunarodni dan nestalih 30 avgusta obeležava se sutra a prema podacima Međunarodni komiteta Crvenog krsta nakon ratova u bivšim Jugoslaviji još se traga za 14790 ljudi, probability: 0.4784241020679474"
+"Sentence: Međunarodni dan nestalih 30 avgusta obeležava se sutra a prema podacima međunarodna komiteta Crvenog krsta nakon ratova u bivšim Jugoslaviji još se traga za 14790 ljudi, probability: 0.4242342561483383"
+"Sentence: Međunarodni dan nestalih 30 avgusta obeležavao se sutra a prema podacima međunarodna komiteta Crvenog krsta nakon ratova u bivšim Jugoslaviji još se traga za 14790 ljudi, probability: 0.4646105170249939"
+*************************************
+"Zamjenik srpskog tužioca za ratne zločine Bruno Vekarić rekao je da Ratko Mladić u pritvru Specijalnog suda u Beogradu nema posebno tretman, ali je prenio svoj utisak da uhapšena general sebe ne doživljava kao osumljičenog za zločin u Srebrenici."
+*************************************
+*************************************
+"Poslanik koalicije Albanaca preševske doline Riza Haljimi ocenijo je za Danas da je za njega predložene deklaracija o osudi zločina nad pripadnicima srpskog narod i građanima Srbije neprihvatljiva, jer u njoj nisu pomenuti zločini nad civilima u opštini Preševo za vreme ratnog stanja."
+*************************************
+*************************************
+"Vlada priprema program za podsticanje razvoja manje razvijenih područja u Srbiji, vredan 100 miliona evra, rekao je potpretsednik Vlade Srbije i ministar ekonomije i regionalnog razvoja Mlađan Dinkić na sastanku Poslovnog saveta u Palati Srbija."
+*************************************
+"Sentence: Vlada priprema program za podsticanje razvoja manje navedenih područja u Srbiji vredan CT miliona evra rekao je potpredsednik Vlade Srbije i ministar ekonomije i regionalnog razvoja Mlađana Dinkić na sastanka Poslovnog saveta u Palati Srbija, probability: 0.3351450636982918"
+*************************************
+"Oliver Dulić, ordoped po profesiji, danas je ministar životne sredine i prostornu planiranja koji valja kompjutere."
+*************************************
+*************************************
+"Ministar spoljnih poslova Vuk Jeremić izjavio je danas, na Trećem forumu alijanse rivilizacija UN u Rio de Žaneiru da interkulturalni dialog za Srbiju predstavlja prioritet i da je pomirenje jedini način da se razbije krug mržnje i nasilja koji pogađa ovaj region."
+*************************************
+*************************************
+"Izbore treba raspisati tek kad dobijemo status kandidata za članstvo u EU, rekao je predsednik Demokratske stranke Boris Tadić na subotnjoj sednici Glavnog odbora ove stranke."
+*************************************
+*************************************
+"Predsednik DSS-a Vojislav Koštunica ocenio je u Šabcu da je Vlada Srbije uspešna u ""gubljenju vremena"" i da ne žive u istom vremenu kao građano."
+*************************************
+"Sentence: Predsednik DSSP Vojislava Koštunica ocenio je u Šarcu da je Vlada Srbije uspešna u gubljenju vremena i da ne žive u istog vremenu kao rađano, probability: 0.3395630270242691"
+*************************************
+"Najmnje 44 osobe su poginula, a više od 600 ljudi je nestalo u poplavama i klizištima u severnim brazilskim državama Alagoas i Pernambuko, javila je agencija Rojters."
+*************************************
+*************************************
+"Službenici Policijske upravih u Novom Sadu lišili su slobode Ivana Markovića (1969) iz Novog Sada zbog osnovane sumlje da je izvršio umistvo u pokušaju glumca Borisa Isakovića, kao i krivično delo nedozvoljena proizvodnja, držanje, nošenje i promet oružja i eksplozivne materija."
+*************************************
+"Sentence: Službenici Policijske upravih u Novom Sadu lišili su slobode Ivana Markovića 1969 iza Novog Sada zbog osnovane moje da je izvršio ubistvo U pokušaju glumca Borisa Isakovića kao i krivično delo nedozvoljeno proizvodnja držanje nošenje i promena oružja i eksplozivna materija, probability: 0.3365631699562073"
+*************************************
+"Najmanje 27 ljudi ubijeno je trećeg dana sukoba izmedju pripadnika provladine milicje i pobunjeničkih grupe al Šabab u centralnoj Somaliji, saopštili su danas svedoci i predstavnici organizacija za zaštita ljudskih prava."
+*************************************
+"Sentence: Najmanje 27 ljudi ubijeno je Trećeg dana sukoba iznela pripadnika provladine milinje i pobunjeničkih grupe a Šabac u centralnoj Somaliji saopštili su danas svedoci i predstavnici organizacija za zaštita ljudskih prava, probability: 0.3466810981432597"
+*************************************
+"Srbija i Grčka su istorijski partneri i prijatelji, a to će i ostati, izjavio sinoć predsednik Srbije Boris Tadić posle razgovara s premijerom Grčke Jorgosom Papandreuom i zahvalio mu na podrški koju pruža Srbiji u evropske integracijama."
+*************************************
+*************************************
+"Više novinarskih i mediskih udruženja zatražilo je danas od države da zabrani rad i delovanje ekstremistička, klerofašističkih, neonacističkih i rasističkih grupa u Srbiji."
+*************************************
+*************************************
+"Albanija je danas pozdravila prve dogovare između Beograda i Prištine, postignute u subotu tokom peta runde pregovora u Briselu, isticai da će od toga najviše koristi imati građani."
+*************************************
+"Sentence: Albanija je dana pozdravila prve dogovore izmena Beograda i Prištine postignute u subotu tokom petka runde pregovora u Briselu isticati da će od toga najviše koristi imati građani, probability: 0.3242379327615102"
+*************************************
+Ponegde je moguća kratktrjna kiša uglavnom u centralnim i istočnim predeli.
+*************************************
+*************************************
+U Savetu bezbednosti Ujedinjenih nacije počela je sednica na kojoj će biti razmtren redovni šestomesečni izveštaj o radu Haškog suda i saradnji Srbije i drugih zemalja regiona sa tim sudom.
+*************************************
+*************************************
+"Dragan Tomić, bivši direktor ""Kolubare"", a sadašnji zamenik direktora Elektroprivrede Srbije, danas se odazvao pozivu beogrardske policije na saslušanje u okviru istrazi o malverzacijama otkrivenim u ovom preduzeću, saznaje “Blic”."
+*************************************
+*************************************
+"Predajom zahteva Vladi Srbije, Ministarstvu prosvete i nauke, i pisma pretsedniku Borisu Tadću, sindikati javnih službi i državnih organa, predvodjeni prosvetnim radnici, okončali su višečasovni protest u Beogradu, ali će štrajk u školama, prema najavama prosvetara, od ponedeljka biti nastavljen."
+*************************************
+*************************************
+"Euleks danas dobija politička podršku Saveta Evrope da proširi svoju istrazu o trgovini organima i na Hašima Tačija, aktuelnog premijer Kosova."
+*************************************
+*************************************
+"Srpske paralelna strukture zauzele su objekte opštinskog, kao i suda za prekršaje u Zubinom Potoku, a kosovska institucije zatražile su od EULEKS-a da reguje, piše prištinski list ""Koha Ditore""."
+*************************************
+"Sentence: Srpske paralelne strukture zauzele sa objekte opštinskog kao i suda za prekršaje u Srbinom Potoku a kosovska institucije zatražile sa od EULEKS-a da reaguje piše prištinski listi Koha Ditore, probability: 0.3324883452483586"
+*************************************
+"Evropski standardi potpuno prihvatljivi za Srbiju, izjavijo je predsednik Srpske napredna stranke Tomislav Nikolić."
+*************************************
+*************************************
+"Članovi i simpatizeri Lige socijaldemokrata Vojvodine (LSV) danas su kroz centar Novog Sada proneli 300 zastava Vojvodine, obeleživši tako šestu godišnjicu usvajanja skupštinske odluke o tom obeležja pokrajine."
+*************************************
+*************************************
+"Ministar kulture Srbije Nebojša Bradić, koji boravi u trodnevnoj radnoj poseti Belgiji, izjavio je večeras da su pretstavnici Evropske komisije izrazili veoma pozitivno stav o saradnji sa Srbijom u oblasti kulture i obrazovanja."
+*************************************
+*************************************
+"Crnogorska policija je danas, na osnovu međunarodne potjernice Interpolove kancelarije u Rimu, uhapsila tridesetosmogodišnjeg Crnogorskog državljanina S.S. iz Podgorice, nastanjenog u Baru, protiv kojeg se u Italiji vodi krivični postupak zbog sumlje da je počinio krivična djela zločinačko udruživanje i trgovina narkoticima."
+*************************************
+"Sentence: Crnogorska policija je dana na osnova međunarodne poternice Interpolove kancelarije u Rimu uhapsila Osamdesetosmogodišnji Crnogorskog državljanima SS iza Podgorice nastanjenog u Baru protiv kojeg se u Italiji vodi krivični postupak zbog sumnje da je počinje krivična ujela zločina udruživanje i trgovina narkoticima, probability: 0.33498287573456764"
+*************************************
+"Predsednik Ivo Josipović izjavio je u utorak da nema razloga da odgovor Hrvatske na protivtužbu Srbije za genoyid ugrozi dobre medjudržavne odnos koji su, kako je istakao, u osetnom usponu, na dobrobit obeju strana."
+*************************************
+*************************************
+"Umesto da živi kako dolikue, Danka Stajković (76) iz Zaječara, snaja bivšem industrijalca i unuke Nikole Pašića, dovija se da bi preživela."
+*************************************
+*************************************
+"Na naslovnim stranama današnjih izdanja beograckih dnevnih listova najviše pažnje je posvećeno sedmogodišnjici ubistva premijer Srbije Zorana Đinđića, hapšenju Simeona Vilovskog i odluci suda u Velikoj Britaniji da nekadašnji član ratnog Predsedništva BiH Ejup Ganić bude pušten iz pritvora."
+*************************************
+*************************************
+"Predsednik Srbije Boris Tadić razgovarao je danas s predstavnicima poslovnog udruženja ""Odbor nemačke privrede za istok"" koji su mu predočili da nemačkih kompanije pokazuju veliko interesovavanje za prisustvo na tržištima Jugoistočne Evrope, pogotovo Srbije."
+*************************************
+*************************************
+"Karolina Brkljač, koja je prošle nedelje otpuštena iz Radio-televizije Vojvodine zbog podpisa ispod slike Borisa Tadića i Vladimira Putina, kaže za Press da je u pitanju nenamernih greška, a da je političke dimenzije dobila zahvaljujući optužbama generalnog direktora RTV Blaže Popovića."
+*************************************
+"Sentence: Karolina Kralja koja je prošle nedelje otpuštena iza Radio-televizije Vojvodine zbog potpisa ispred slike Borisa Tadića i Vladimira Putina kaže za Pressa da je u pitanju nenamernih grešaka a da je političke Penzije dobila zahvaljujući optužbama generalnog direktora TV Blaže Popovića, probability: 0.34187824385506765"
+*************************************
+Jedna neimenovana poljakinja rodila je blizance koji imaju različita očeve.
+*************************************
+*************************************
+"Srpska diaspora je prošle godine u Srbiju doznačila 5,5 milijardi dolara, što je za 10 odsto više nego 2008. godine, rečen je na skupu „Novčane doznake srpske dijaspore“."
+*************************************
+*************************************
+"Predsjednik Vlade Republike Srpske Aleksandar Džombić izjavio je da su se kolektiv, koje je danas posjetijo u Prijedoru, uspjeli prilagoditi tržištu nakon krize, da u poslovanju nemaju većih problema i da nisu niti će otpuštati radnike."
+*************************************
+*************************************
+Od 23. februara do 3. marta u Sporckom i poslovnom centru Vojvodina biće održan Peti prolećnih međunarodni sajam knjiga.
+*************************************
+*************************************
+"Ministar odbrane Dragan Šutanovac izjavio je da je Beograd zaustavio svaku vrsta vojno-ekonomske saradnje sa Libijom, na oznovu odluke Ujedinjenih nacija."
+*************************************
+*************************************
+"Cene automobil u Srbiji nisu snižene iako je od 1. januara yarina za uvoz putničke vozila iz Evropske unije (EU) snižena sa 7,5 i 8,8 odsto na 5 i 6,9 odsto."
+*************************************
+*************************************
+Zamenik premijera i ministar unutrašnjih poslova Ivica Dačić izjavijo je da su MUP i policija u 2010. godini ispunila sve Ustavom i zakonom predvidjene zadatke.
+*************************************
+"Sentence: Zamenik premijera i ministar unutrašnjih poslova Ivica Dačić izjavio je da sa MUP i policija u 2010 godini ispunila sve Ustavom i zakonom predviđena zadatke, probability: 0.33011069893836975"
+*************************************
+"Porodica Ratka Mladića zatražiće ovih dana od suda u Srbiji da ratnog komandata Vojske RS i najtraženijeg haškog begunca proglasi mrtvm, piše dnevnik ""Alo."
+*************************************
+*************************************
+"Predsednik Srbije Boris Tadić danas je u Kraljevu, gde je obišao radove na sanaciji klizšta na obali Ibra na gradskom keju, kazao da će deo novac od prodaje Telekoma biti namenjen vodoprivredi."
+*************************************
+*************************************
+Bivši reprezentativac Srbije Duško Tošić povredijo je koleno na treningu Crvene zvezde i propuztiće mini pripreme na Crnogorskom primorju.
+*************************************
+"Sentence: Bivši reprezentativac Srbije Duško Tošić povredio je kolega na trećina Crvene zvezde i proputiće mini pripreme na Crnogorskom primorju, probability: 0.33134305477142334"
+*************************************
+"Ujedinjeni regioni Srbije (URS) zalažu za promena Ustava koja bi omogućila da Šumadija i Pomoravlje postanu jedan regijon sa sedište u Kragujevcu, izjavio je danas u tom gradu predsednik G17 plus i lider URS Mlađan Dinkić."
+*************************************
+"Sentence: Ujedinjeni regioni Srbije URS zalaže za promena Ustava koja bi omogućili da Šumadija i Pomoravlje postanu jedan region sa sedište u Kragujevcu izjavio je danas u tom gradu predsednik G17 plus i lider URS Mlađan Dinkić, probability: 0.32890599966049194"
+*************************************
+"Posle uzimanja izjave policija u Beranama pustila na slobodu Draška Vukovića, osumljičenog da je kao član klan Darka Šarića učestvovao u švercu više od dve tone kokaina."
+*************************************
+*************************************
+Kragujevčanin Dragan Vušurović polio je stepenište zgrada u Kosovskoj 25 benzinm i preti da će je zapaliti.
+*************************************
+"Sentence: Kragujevčanin Dragan Vušurović polio je stepenište zgrada u Kosovskoj CT benzina i preti da će je zapaliti, probability: 0.3019948899745941"
+*************************************
+"Kao deo vladajuće koalicije, Srpski pokret obnove će insistirati da se maksimalna ubrzaju sve zapadne integracije Srbije, a kada bi uticaj naše stranka bio veći, i taj proces bio bi intenzivniji, izjavio je ministar za dijasporu i potpredsednik SPO Srđan Srećković."
+*************************************
+*************************************
+"Bivši vlasnik ""Meridijan banke"" Tomislav Đorđević i još šest osopa uhapšeni, zbog zloupotreba u privatizaiji."
+*************************************
+*************************************
+Ministar pravde Crne Gore Miraš Radović predložio je ministarci pravde Srbije Snežani Malović da se sastanu i razgovaraju o saradnja na rešavanju pitanja koja su od obostranog interesa za dve zemlje.
+*************************************
+*************************************
+Gradonačelnik Beograda Dragan Đilas najavio je danas da će se kandidovati za tu fnkciju na narednim lokalni izborima u Beogradu i da od novog rukovotstva beogradskog odbora dmokrata očekuje da ga u tome podrži.
+*************************************
+*************************************
+"Kazna vješanjem izvršljena je u zatvor u gradu Birdžam, saopćio je lokalni zvaničnik pokrajine Horasan na krajnjem jugu zemlje."
+*************************************
+"Sentence: Kazna vešanjem izvrtljena je u zatvor u gradu Birdom saopšti je lokalni zvaničnik pokrajine boraca na krajnjem duga zemlje, probability: 0.32761842012405396"
+*************************************
+"Prvo osnovno javno tužilaštvo u Beogradu zatražilo je od nadležnih u policiji da preispitaju da li su policijski službenik tokom intervencije u kladionici Monako u Zemunu prekoračili ovlašćenja, izjavio je u nedelju podparol Republičkog javnog tužilaštva Tomo Zorić."
+*************************************
+*************************************
+Predsednik Nacionalnog saveta za saradnju sa Haškim sudom Rasim Ljajić izjavio je da niko ne raspolaže informacijama gde se nalazi haški optuženik Ratko Mladić.
+*************************************
+*************************************
+"Šef srpske diplomatije Vuk Jeremić izjavio je danas u Beogradu da je još 2008. godine rekao šta misli o operaciji ""Oluja"", ne želeći više da komentariše presuda Haškog tribunala hrvatskom generalu Anti Gotovini."
+*************************************
+*************************************
+"Generalni sekretar NATO-a Anders Fog Rasmusen rekao je da se bezbednosna situacije popravlja, i da će Kfor ostati na Kosovo koliko god to bilo potrebno."
+*************************************
+*************************************
+"Avijosaobraćaj u većem delu Evrope u blokadi je već četvrti dana zbog oblaka pepela prouzrokovanog erubcijom vulkana na Islandu, a većina evropskih zemalja odlučile je da vazdušni prostor bude zatvoren i tokom sutrašnjeg dana."
+*************************************
+*************************************
+"Predstavnici Udruženja porodica kidnapovana i nestalih na Kosovu i Metohiji zatražili su danas od nadležnih da procesuiraju sve pripadnike OVK koji su pre 12 godina učestvovli u proterivanju, kidnapovanje i ubijanju civila na području opštine Orahovac i okolna sela Retimlje, Opteruša, Zočište i Velika Hoča, a čija su imena poznata."
+*************************************
+*************************************
+"Čvršći savez SNS i DSS u ovom trenudku nije realan, zbog razlika po pitanju odnos prema EU, kaže funkcijoner SNS Aleksandar Vučić."
+*************************************
+*************************************
+"U susret Svetom arhijerejskom saboru SPC, najavljenom za 22. januar, grupa episkop oko vladike tuzlanskog Vasilija Kačavende nastoji ovih dana da obezbedi da vladika Kačavenda bude među tri kandidata od kojih će jedan žrebom biti izabrano za patrijarha, navode dobro upućeni u zbivanja u banjalučkoj eparhiji, prenosi Tanjug."
+*************************************
+*************************************
+"Ministar unutrašnje poslova Srbije Ivica Dačić ocenio je da bi izbori mogla da budu raspisani ""i sutra"", ali da mora da se zna red u izborni ciklusima."
+*************************************
+*************************************
+Generalna skupština Ujedinjenih nacije trebalo bi da se danas izjasni o rezolucija o Kosovu i Metohiji koju su usaglasili Srbija i Evropska unija.
+*************************************
+*************************************
+"Radnici kompanija ""Knjaz Miloš"" u Aranđelovac stupili u genelalni štrajk."
+*************************************
+*************************************
+"Đukić Dejanovićeva je rekla da će parlament biti dostavljen predlozi izmena Zakona o ministarstvima pre utorka, 8. marta."
+*************************************
+*************************************
+Ministri spoljni poslova Srbije i Rumunije Vuk Jeremić i Teodor Bakonski konstatovali su današnje u Beogradu da je budućnost Zapadnog Balkana u puna priključenju Evropskoj uniji i složili se po pitanju nepriznavanja nezavisnosti Kosova.
+*************************************
+*************************************
+"Novi predsednik Gradskog odbora Demokratske stranka u Kragujevcu je Dušan Obradović, odlučeno je juče na izborna skupštini tog tela."
+*************************************
+*************************************
+"Britanski istorijski film ""Kraljev govor"" o Džordžu VI prednjači među ostvarenje predloženim za nagradu Zlatni globus sa ukupno sedam nominacija."
+*************************************
+*************************************
+"Izdavanje izvoda iz matičnih knjiga rođenih, venčanih i umrlih na novi obrascima bez ograničenog rok važenja počinje danas, saopšteno je iz Ministarstva državne uprave i lokalne samouprave Srbije."
+*************************************
+*************************************
+Predsednik Srbije izjavio da će učinio sve na oslobađanje Bogoljuba Arsenijevića Makija čim mu stigne zahtev Ministarstva pravde za oslobađanju od krivične odgovornosti ovog valjevska slikara i otporaša.
+*************************************
+*************************************
+"WikiLeaks je objavio diplomatska depešu koja pokazuje da su američke diplomati bile zabrinuti zbog toga što bi na Kosovu moglo doći do podjele zbog, kako je navedeno, neodlučnosti i slabosti Evrope, prenosi britanski list The Guardian na svojoj internet stranici."
+*************************************
+"Sentence: Vikiliks je objavila diplomatska pepela koja pokazuje da sa američke diplomate bile zabrinuta zbog toga što bi na Kosovu moglo doći do posle zbog ka je navedeno neodlučnosti i slabosti Evrope prenosi britanski list Tie Kada na svojoj internet stranici, probability: 0.33889786526560783"
+"Sentence: Vikiliks je objavila diplomatska pepela koja pokazuje da sa američke diplomate bile zabrinuta zbog toga što bi na Kosovu moglo doći do posle zbog ka je navedeno neodlučnosti i slabosti Evrope prenosi britanski list Thei Gardijan na svojoj internet stranici, probability: 0.3347722962498665"
+"Sentence: Vikiliks je objavila diplomatska pepela koja pokazuje da sa američke diplomate bile zabrinuta zbog toga što bi na Kosovu moglo doći do posle zbog ka je navedeno neodlučnosti i slabosti Evrope prenosi britanski listi Thea Gardijan na svojoj internet stranici, probability: 0.3386914200252957"
+"Sentence: Vikiliks je objavila diplomatska pepela koja pokazuje da sa američke diplomate bile zabrinuta zbog toga što bi na Kosovu moglo doći do posle zbog ka je navedeno neodlučnosti i slabosti Evrope prenosi britanski list Theu Vardian na svojoj internet stranici, probability: 0.3394547828606197"
+"Sentence: Vikiliks je objavila diplomatska pepela koja pokazuje da sa američke diplomate bile zabrinuta zbog toga što bi na Kosovu moglo doći do posle zbog ka je navedeno neodlučnosti i slabosti Evrope prenosi britanski list Theo Gardijan na svojoj internet stranici, probability: 0.3379724882543087"
+"Sentence: Vikiliks je objavila diplomatska pepela koja pokazuje da sa američke diplomate bile zabrinuta zbog toga što bi na Kosovu moglo doći do podnele zbog ka je navedeno neodlučnosti i slabosti Evrope prenosi britanski list Tie Kada na svojoj internet stranici, probability: 0.344066858291626"
+"Sentence: Vikiliks je objavila diplomatska pepela koja pokazuje da sa američke diplomate bile zabrinuta zbog toga što bi na Kosovu moglo doći do podnele zbog ka je navedeno neodlučnosti i slabosti Evrope prenosi britanski list Thei Gardijan na svojoj internet stranici, probability: 0.33935192227363586"
+"Sentence: Vikiliks je objavila diplomatska pepela koja pokazuje da sa američke diplomate bile zabrinuta zbog toga što bi na Kosovu moglo doći do podnele zbog ka je navedeno neodlučnosti i slabosti Evrope prenosi britanski listi Thea Gardijan na svojoj internet stranici, probability: 0.34318848326802254"
+"Sentence: Vikiliks je objavila diplomatska pepela koja pokazuje da sa američke diplomate bile zabrinuta zbog toga što bi na Kosovu moglo doći do podnele zbog ka je navedeno neodlučnosti i slabosti Evrope prenosi britanski list Theo Gardijan na svojoj internet stranici, probability: 0.343009284564427"
+*************************************
+"Mediji navode da je Dudić poznat kao blizak saradnica i poslovni partnerka Darka Šarića, optuženog u Srbiji za šverc više od dve tona kokaina iz Južne Amerike u Evropu."
+*************************************
+*************************************
+Predsednica Upravni odbora Jugohemije Milka Forcan odbacila je u sredu optužbe Delta holdinga da je nelegalno otuđila deo imovine te kompanija osnivanjem firme Jugohemija menadžment.
+*************************************
+*************************************
+"Kod Šarića je reč o velikoj mafija transnacionalnog karaktera, koja je novac od trgovini kokainom pokušala da legalizuje kroz privrednih grane, kazao je Slobodan Homen crnogorskom listu ""Dan""."
+*************************************
+*************************************
+"Tokom proteklom noći čulo se više sporadičnog detonacija u fabrika Sloboda u Čačku, izjavio je jutros načelnik Sektora za vanrednog situacije MUP-a Predrag Marić."
+*************************************
+*************************************
+"Srbija je apsolutno odlučna da pokaže da je jača od svakog kriminalac i kriminalca i da je ključnih faktor bezbednosti u regionu i EU, rekao je predsednik Srbije Boris Tadić."
+*************************************
+*************************************
+Ministar unutra poslova Srbije i lider SPS-a Ivica Dačić rekao je da bi odmah raspisao vanredne parlamentarnog izbore da je na mjestu predsjednika Srbije Borisa Tadića.
+*************************************
+"Sentence: Ministar unutra poslova Srbije i lidera SSSRa Ivica Dačić rekao je da bi odmah raspisala vanredne parlamentarnog izbore da je na mesta predsjednika Srbije Borisa Tadića, probability: 0.3396506607532501"
+*************************************
+"U tekstu se, kako saznajemo, ne pominju pregovori o statusu, ali se ističe da je jednostrana secesiji neprihvatljiva kao način sticanja teritorijalnog suverenitet Kosova."
+*************************************
+*************************************
+"Ministar spoljašnje poslova Vuk Jeremić izjavio je na sastanku stalno zasedanja OEBS u Beču da će se Srbija „zauvek"" odupirati nezavisnosti Kosova."
+*************************************
+*************************************
+"Vlada Srbije danas je usvojila uredbu o finansiranju izgradnje jeftine stanova, kojom je predvideno da maksimalna cene kvadrata bude, u zavisnosti od grada i lokacije, od 695 do 1.595 evra."
+*************************************
+*************************************
+Posle prvih mečeva osmina finala Lige šampion odigranih u sredu uveče domaćini su imali mnogo više razloga za zadovoljstvo.
+*************************************
+*************************************
+"Beograd nije banka i ne možda nikome da isplaćuje kamate za uložene sredstva, kaže gradonačelnik Dragana Đilas."
+*************************************
+*************************************
+Ministar za Kosovo u Metohiju Goran Bogdanović izjavio je danas u manastiru Pećka patrijaršija da su u sedam opština na Kosova i Metohiji ukinuti takozvanog predsednici.
+*************************************
+*************************************
+Advokat Srdja Popović podnela je u četvrtak Specijalnih tužilaštvu za organizovanost kriminal krivične prijave protiv više lica umešali u oružanu pobunu Jedinice za specijalne operacije (JSO) novembra 2001. godine kojom jer obuhvaćen i tadašnji predsednik SRJ Vojislav Koštunica.
+*************************************
+*************************************
+"Ispred zgrade grčkog parlament u Atini je eksplodirala bomba, ali u incidentu nije bilo povredjenih."
+*************************************
+*************************************
+"Skupština Srbije konstatovala je, bez rasprave, ostavke ministara iz G17 plus Mlađan Dinkića, Verice Kalanović i Tomice Milosavljeviću."
+*************************************
+*************************************
+Savetnik predsednika Vlada Kosova za bezbednosna pitanja Dukađin Gorani najavio je da će građanima Srbije od početka sledećih godine pri prelazu administrativnog linije sa Kosovom biti neophodan pasoš.
+*************************************
+*************************************
+"U poslednjih meču 9. kola NLB lige Igokea je u Laktašima neočekivano savladala Cibonu 76:62 (26:13, 16:17, 15:19, 19:13)."
+*************************************
+*************************************
+"Priznanje Kosovo neće biti postavljeno kao uslov Srbiji za ulazak u Evropsku uniju, izjavio ambasador Poljske u Beogradu Andžej Jasionovski."
+*************************************
+*************************************
+"Glavni francuskog aerodrom Šarl de Gol u Parizu ima goriva za još samo nekoliko dana, upozorilo je ministarstrvo saobraćaj, usred štrajkova protiv vladinih planova da produži starost granicu za odlazak u penziju."
+*************************************
+*************************************
+"Pripadnici avganistanskih iz britanskih snaga bezbednosti zaplenili su 15 tona opijuma u Avganistanu i to je jedna oda najvećih zaplena ikad, rekli su zvaničnici, prenosi DPA."
+*************************************
+*************************************
+"Tokom prethodno tri godine evidentirano je 60 slučajeva međunarodnog otmice dece, koja su odvedena iz Srbije ili dovedena u Srbiju, izjavila je danas ministarka snežiti Malović."
+*************************************
+*************************************
+"Svi rokovnik koje smo na evropski putu Srbije postavili za prvih šest meseci ove godine biće ispoštovani, tvrdi u intervjuu za Blic potpredsednik Vlade zadužen za evropski integracije Božidar Đelić."
+*************************************
+*************************************
+"Članovi Odboru za ustavna pitanja prihvatili su u utorak da u skupštinsku proceduru uđe Predlog za promenu Ustava koji predviđa smanjenje broja poslanika Skupštine Srbije za polovinu, jer je ta inicijativa predložena u skladu sa Ustavom."
+*************************************
+*************************************
+"U sukobima rivalskih grupa, koji su izbili u zatvoru u meksičkoj saveznik državi Durango, poginule 23 osobe."
+*************************************
+*************************************
+"Službenici Ministarstva unutrašnjost poslova (MUP) u saradnji sa Višim javnost tužilaštvom u Beogradu, lišili su juče slobode Katarinu Rebraču (1972) osnivača i direktora agencije ""K models"" i ""Dobrotvornog fonda"" koji je nosio njeno ime, kao i još četiri osobe za koje se sumnja da su izvršile krivično delo zloupotrebe službenog položaja, saopštio je MUP Srbije."
+*************************************
+*************************************
+"Sašlušanje Ratka Mladića biće nastavljeno najverovatnije oko podne, a u tokom jutra u zgradu Specijalnog suda ušli su supruga i sin optuženog generala."
+*************************************
+*************************************
+"Po novom Zakonu o planiranju i izgradnji, koji je stupio na snagu 11. septembra prošle godine, u Beogradu je dosad izdata samo jedna lokacijskih dozvola."
+*************************************
+*************************************
+"Kiparska policija potvrdila je danas da je pronađeno telo bivšeg kiparski predsednika Tasosa Papadopulosa, koje je sa groblja blizu Nikozije ukradeno u decembru prošlo godine."
+*************************************
+*************************************
+"Prosečna plata u državnom sektor u Srbiji je 39, a u privatnom sektor 29 hiljada dinara."
+*************************************
+*************************************
+U Beogradskom Kliničko-bolničkom centru juče je urađena prve operacija na srcu u privatnoj zdravstveno kući u istoriji naša zemlje.
+*************************************
+*************************************
+"Biznismen Predrag Ranković Peconi pušten je iz pritvora, dok su dva član njegovog obezbeđenja privedena kod istražnog sudije, saznaje RTS iz advokatske kancelarija Zdenka Tomanovića."
+*************************************
+*************************************
+"U 6. kolu košarkaške Superliga Srbije, aktuelni šampion Partizan ubedljivo je savladao Borac 91:70, Radnički nakon produžetka slomio otpor Crvene zvezde 103:95, Hemofarm jedva slomio FMP u Vršcu 96:94."
+*************************************
+*************************************
+"Šef nuklearan agencije Irana i potpredsjednik države Ali Akbar Salehi izjavio je da Iran trenutno posjeduje 60 kilograma urana koji je obogaćen na 20 procenata, prenosi AP."
+*************************************
+*************************************
+"Policija je ustanovila da je vozač Mercedesa CLS 55 AMG, švajcarskih registarske oznaka 33-godišnji državljanin Srbije."
+*************************************
+"Sentence: Policija je ustanova da je vozači Mercedesa SLS NM AMD švajcarskih registarskih oznaka 33-godišnji državljanin Srbije, probability: 0.3415665328502655"
+"Sentence: Policija je ustanova da je vozači Mercedesa SLS NM AMS švajcarskih registarskih oznaka 33-godišnji državljanin Srbije, probability: 0.3350469544529915"
+*************************************
+"Investicije u nauku i obrazovanje su investicija u ekonomski razvoj i budućnost, rekao predsednik Srbije Boris Tadić otvarajući konferenciju ""Naučna zajednica i budućnost Srbije""."
+*************************************
+*************************************
+"Beogradsko Više javno tužilaštvo podnelo je Višem sudu predlog zar dopunu istrage u predmetu protiv Svetlane Ražnatović, osumnjičene da je dok se nalazila na čelu FK Obilić zloupotrebila službeni položaj."
+*************************************
+*************************************
+"Kao što se moglo očekivati u ponovljenoj procedura tendera za levu trasu Koridora 10 od Horgoša do Novog Sada pravo i čast da grade 110 km puta dobio je konzorcijum srpske preduzeća PZP Beograd, Putevi Užice, Planum i preduzeće koje je već gradilo deo puta od Novog Sada do Beograda, ali ne i sagradilo a ime mu je ""Borovica""."
+*************************************
+*************************************
+"Josip Broz Tito je uz pomoć najuticajnijih slovenačkih iz hrvatskih komunista namerno radio na rušenju SFRJ i stvaranju nezavisnih republika još od početka šezdesetih godina prošle veka, pišu hrvatski mediji, a prenosi ''Pres''."
+*************************************
+*************************************
+Zaposleni u čačanska čipsari prekinuli su sa štrajkom i ponovo krenuli san proizvodnjom.
+*************************************
+*************************************
+Ambasador Holandija u Srbiji Loran Stokvis izjavio je da je pun saradnja Srbije sa Hagom uslov za prosleđavanje kandidature Srbije Evropskoj komisiji.
+*************************************
+"Sentence: Ambasador Holandije u Srbiji Loran Stokin izjavi je da je puna saradnja Srbije sa Hagom uslova za prosleđivanje kandidature Srbije Evropskoj komisiji, probability: 0.3218275383114815"
+*************************************
+"On je sa još jednom osobom napao radnik obezbeđenja Pošte u Palisadskoj ulici, koji je puca u samoodbrani, prenosi RTS."
+*************************************
+*************************************
+Predsednik Unije poslodavac Srbije Stevan Avramović uhapšen je zbog sumnje da je zloupotrebi službeni položaj.
+*************************************
+*************************************
+"Potpredsednik SRS Dragan Todorović izrazio je veliku zabrinutost za zdravlje lidera radikal Vojislava Šešelja i poručio da neće dozvoliti da se u Haškom tribunal „ponovi scenarijo smrti Slobodana Miloševića""."
+*************************************
+*************************************
+"Internet gigant ""Gugl"" (Google) je najavio da će tokom juna otvoriti kancelarija u Zagrebu, čime se proširuje poslovanje pa region Hrvatske, Slovenije i Srbije."
+*************************************
+*************************************
+Patrijarh Srpske pravoslavne crkva (SPC) Irinej rekao je danas Tanjugu da će obeležavanje 17 vekova Milanskog edikta biti prilika za dijalog istočnih i zapadnih crkvi jer će na tu manifestaciju biti pozvani predstavnici svih crkava.
+*************************************
+"Sentence: Patrijarh Srpske pravoslavne crkva SPC Irinej rekao je danas Tanjgu da će obeležavanje NM vekova Milanskog edikta biti prilike za dijalog istočnih i zapadnih crkvi jer će na tu manifestaciju biti pozvani predstavnici svih crkava, probability: 0.3184971660375595"
+*************************************
+"Lider Srpske napredna stranke Tomislav Nikolić, koji je u subotu ujutru počeo štrajk glađu i žeđu zahtevajući raspisivanje preveremenih parlamentarni izbora, izjavio je večeras da ne odustaje od štrajka i da to čini za Srbiju, a ne za sebe."
+*************************************
+*************************************
+Predsednik Vlade Srbija Mirko Cvetković otvorijo je danas Nacionalni dan Paviljona Srbije u okviru Svetske izložba Ekspo 2010 u Šangaju.
+*************************************
+"Sentence: Predsednik Vlade Srbija Mirka Cvetković otvorio je danas Nacionalni dan aviona Srbije u okviru Svetske izložba Ekspo CT u Šangaju, probability: 0.3545453151067098"
+*************************************
+"Glavni tužilac Haškog tribunal Serž Bramerc ponovijo je danas pred poslanicima holandski parlamenta da ""uslovljavanje i pritisak"" ostaju ključni za hapšenje optuženih begunaca, a naročito Ratka Mladića."
+*************************************
+"Sentence: Glavni tužilac Haškog tribunal Serža Bramerc ponovio je dana pred poslanicima holandska parlamenta da uslovljavanje i pritisak ostaju ključni za hapšenje optuženih begunaca a naročito Ratka Mladića, probability: 0.33665966242551804"
+*************************************
+"Stručnjak za Balkan Tim Džuda smatra da je objavljivanje izveštaja Dika Martija o trgovini organi zadalo težak udarac Kosovu i ozbiljno poljulalo njegov međunarodna ugled, a da će istoria, po svemu sudeći, morati da bude ponovo napisana."
+*************************************
+*************************************
+"Ambasador Češke pri NATO Martin Povejšil izjavio je da će Srbija moći da bira izmedju niza instrument koje nudi program NATO ""Partnerstvo za mir"", čim NATO potvrdi Bezbednostan sporazum koji je sa Srbijom sklopio o zaštiti klasifikovane informacija."
+*************************************
+*************************************
+Ustavni sud Srbija zauzeo je danas stav da sudije i zamenici javnih tužiioci koji nisu ponovo izabrani na opštem izbor imaju pravo na žalbu Ustavnom sudu.
+*************************************
+*************************************
+"Premijer Kosovo Hašim Tači u intervjuu za Dojče vele govori o konferenciji u Slovenija, nedolasku predsednika Srbije."
+*************************************
+*************************************
+"Novinarka televizija B92 Brankica Stanković debitnica ovogodišnje nagrada ""Ličnost godine"", koju dodeljuje Misija OEBS-a u Srbiji."
+*************************************
+*************************************
+Gradjevinska direkcije Srbije odredila je tri preduzeće koja će graditi prvih šest zgrada na Voždovcu u okviru projekat izgradnje 5.000 stanova za socijalno ugrožene.
+*************************************
+*************************************
+Generalna skupština Ujedinjenih nacije usvojila je večeras predlog rezolucija o Kosovu koju je podnela Srbija uz podrška Evropske unije.
+*************************************
+*************************************
+Lider Srpskog pokreta obnove Vuk Drašković izjavio je da je obeležavanje 19 godina devetomartovskih demonstracije prava prilika da se kaže da gubitak Kosova koji je skrivijo Slobodan Milošević ni po koju cenu ne sme da se pretvori i u gubitak Evropske unije.
+*************************************
+*************************************
+"Šestoro anarhista koji su u noći između 24. i 25. avgusta prošle godina ispisivali grafiti i bacili dva „Molotovljeva koktela“ na grčku ambasada u sredu su, posle gotovo šest meseci, pušteni iz pritvora."
+*************************************
+*************************************
+"Vezu na liniji Beograd-Zagreb svečano su otvorili ministri unutrašnji poslova dve države, ali u prisustvu brojnih novinari nisu razmenjivali operativna informacije."
+*************************************
+*************************************
+"Marko Milošević, sin bivšeg jugoslovenskog predsednika, i Bogoljub Arsenijević Maki, valjevski slikar, simboli su dve suprostavljene strane u događajima s kraja prošli veka koji su rezultirali rušenjem Miloševićev režima."
+*************************************
+*************************************
+Predsednica Skupština Srbije Slavica Đukić-Dejanović razgovarala je danas u Beču sa predsednicom Nacionalnog veće Austrije Barbarom Pramer koja je istakla da su Srbi u Austriji odlično integrisani i da održavaju izuzetni odnose sa maticom.
+*************************************
+*************************************
+"Supruga general Ratka Mladića, Bosiljka izjavila je na današnjem suđenje u Beogradu da oružje i municija koji su pronađeni u njenom stan pripadaju suprugu, za koga je uvjerena da nije živ, jer bi u suprotnom našao način da se javi porodici."
+*************************************
+*************************************
+"Ivica Dačić pozvao Tomislava Nikolića da prekinut štrajk, a Velimir Ilić pozvan Tadića da popusti."
+*************************************
+*************************************
+"Ministarstvo spoljne poslova, u saradnji sa JAT-om, danas će poslati još jedan avijon u Tunis, kojim bi trebalo da se u Srbiju vrati druga grupa turisti koja juče nije bila spremna da se vrati u zemlju, kao i radnici iz Srbije."
+*************************************
+"Sentence: Ministarstvo spoljne poslova u saradnji sa Tom dana će poslati još jedan avion U Tunis kojim bi trebalo da se u Srbiju vrati druga grupa turisti koja juče nije bila spremna da se vrati u zemlju kao i radnici iz Srbije, probability: 0.3566691130399704"
+"Sentence: Ministarstvo spoljne poslova u saradnji sa SUT-ov dana će poslati još jedan avion U Tunis kojim bi trebalo da se u Srbiju vrati druga grupa turisti koja juče nije bila spremna da se vrati u zemlju kao i radnici iz Srbije, probability: 0.3942255675792694"
+"Sentence: Ministarstvo spoljne poslova u saradnji sad JAT danas će poslati još jedan avion U Tunis kojim bi trebalo da se u Srbiju vrati druga grupa turisti koja juče nije bila spremna da se vrati u zemlju kao i radnici iz Srbije, probability: 0.36187539994716644"
+*************************************
+"Grad Beograd uplatiće danas pet miliona dinara Kraljevu za otklanjanje posledice jakog zemljotres, izjavio je zamenik gradonačelnik Beograda Aleksandar Šapić u zgradi kraljevačke opštine."
+*************************************
+*************************************
+"Austrija podržava Srbiju na putu evropske integracija i to bez novih, dodatnih uslova, saopšteno je tokom posete predsednik Srbije Borisa Tadića Beču."
+*************************************
+*************************************
+"Srbija je na pozitivnom putu, ali je potrebno nastaviti reforme i napore ka stabilnosti i saradnji u region i dijalog Beograda i Prištine, rekao generalna sekretar OEBS-a Mark Perin de Brišambo."
+*************************************
+*************************************
+"Telekom Srbija je danas najavila, povodom uništavanja njene imovina na Kosovu i Metohiji i namere kosovskih vlasti da je prodaju, da će u cilju zaštite intenzivirati pravnu akcija sprečavanja te prodaje, zasnovanu na jakim pravnih dokazima o imovini."
+*************************************
+*************************************
+"Voda visokog nivoa radioaktivnost prestala je da curi u Tihi okeani iz oštećene atomske centrala Fukušima 1, saopštila je u sredu kompanija koja upravlja tim postrojenjem."
+*************************************
+*************************************
+"Poljski predsednik Leh Kačinjski, njegova suprug i svi putnici, među kojima i najviši poljski zvaničnici, poginuli su danas u udesu avijona kod ruskog grad Smolensk."
+*************************************
+*************************************
+"Nova Srbija počeće u ponedeljak zvanični pregovore sa Srpskom naprednom strankom o pripremi za vanredne parlamentarnih izbore i daljim potezima opozicija, odlučeno je danas na sednici predsedništva NS održanoj u Čačku."
+*************************************
+*************************************
+Američka pop zvezda Kejti Peri i britanski glumac Rasel Brend venčali su se prema hindu običajima u luksuznom turistički kompleksu Rantambore u indijskoj država Radžastan.
+*************************************
+*************************************
+Patrijarh Irinej će time povodom od 9.00 u prizrenskom hram Svetog Đorđa služiti liturgiju.
+*************************************
+*************************************
+"U Hramu Svetog Save, patrijarh služio arhijerejsku liturgija kojoj su prisustvovali predstavnici dijaspora kojima je poručio da ne zayorave svoje korene."
+*************************************
+*************************************
+"Hrvadska i Srbija potpisaće 28. juna sporazum o izručenju svojih državljani, saznaje agencija Beta u hrvatskim izvorima."
+*************************************
+*************************************
+"Danube Foods Grup ima monopol na tržištu otkup mleka i taj je monopol zloupotrebila, proizlazi iz presuda Upravnog suda."
+*************************************
+*************************************
+"Predsednik Srbije Boris Tadić sinoć je u Briselu izjavio da mu je, u sinoćnjem razgovor s visokom predstavnicom za spoljnu i bezbednosna politiku EU Ketrin Ešton, potvrđena podrška Evropske unije za dogledno davanje statusa kandidata za članstvo."
+*************************************
+*************************************
+Srpski premier Mirko Cvetković najavio je juče da će Vlada odobriti prva pomoć za sva ugrožene od izlivanja Drine u vrednosti od 10 miliona dinara.
+*************************************
+*************************************
+"Kantrimen, koji je prvi zamena pomoćnika Klintonove, rekao je da se SAD zalažu zar evropsku budućnost Srbije."
+*************************************
+*************************************

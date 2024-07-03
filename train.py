@@ -1,6 +1,5 @@
 import torch
 
-
 def train(model, criterion, optimizer, NUM_EPOCHS, dataloader, checkpoint_path):
     for epoch in range(NUM_EPOCHS):
         print(f"Starting epoch {epoch + 1}")
